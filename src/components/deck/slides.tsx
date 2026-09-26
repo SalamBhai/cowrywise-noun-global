@@ -567,32 +567,32 @@ export const slides: SlideDef[] = [
         <div>
           <h2 className="slide-title">
             Personal Branding:
-            <span className="text-[#0052FF] ml-3">Signal Over Noise</span>
+            <span className="text-[#0052FF] ml-3">What It Actually Means</span>
           </h2>
           <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            It is not self-promotion or vanity metrics. It is your reputation operating at internet scale.
+            It is not hype, noise, or social media fame. It is simply what people trust you to deliver.
           </p>
         </div>
 
         <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
           <Card className="col-span-5 p-8 flex flex-col justify-between" tone="paper">
             <div>
-              <Kicker tone="white">What It IS NOT</Kicker>
+              <Kicker tone="white">What It Is NOT</Kicker>
               <ul className="mt-6 space-y-4">
                 <Bullet tone="dark">
-                  <strong>Not Vanity Metrics:</strong> Having 10,000 followers while nobody knows what specific problem you can actually solve.
+                  <strong>Not Social Media Numbers:</strong> Having thousands of followers or likes doesn't mean anyone trusts your skills or will hire you.
                 </Bullet>
                 <Bullet tone="dark">
-                  <strong>Not Inauthentic Hype:</strong> Calling yourself a "thought leader" or "CEO of 5 ventures" before shipping a single real product.
+                  <strong>Not Fancy Titles:</strong> Calling yourself a "CEO", "Strategist", or "Visionary" before you have solved real problems for anyone.
                 </Bullet>
                 <Bullet tone="dark">
-                  <strong>Not Generic Reposting:</strong> Copy-pasting inspirational quotes without any original perspective or lived struggle.
+                  <strong>Not Reposting Motivation:</strong> Copying and pasting quotes without sharing your own experiences, lessons, or honest work.
                 </Bullet>
               </ul>
             </div>
             <div className="bg-[#FAF7EE] border-2 border-[#0A1128] p-4 brut-sm">
               <p className="font-mono text-sm font-bold text-[#0A1128]">
-                "Noise fades fast. Artifacts and outcomes echo forever."
+                "Noise and hype fade quickly. Real work speaks for you anywhere in the world."
               </p>
             </div>
           </Card>
@@ -601,7 +601,7 @@ export const slides: SlideDef[] = [
             <div>
               <div className="flex items-center justify-between">
                 <span className="brut-flat border-[3px] border-white bg-white text-[#0052FF] px-4 py-1.5 font-mono text-xs font-bold uppercase tracking-widest shadow-[3px_3px_0_0_#000]">
-                  The 3-Pillar Definition
+                  The 3 Simple Essentials
                 </span>
                 <Sparkles className="h-8 w-8 text-white" />
               </div>
@@ -609,35 +609,35 @@ export const slides: SlideDef[] = [
               <div className="mt-6 space-y-4">
                 <div className="p-4 bg-white text-[#0A1128] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
                   <h4 className="font-display text-xl font-extrabold text-[#0052FF]">
-                    1. Clarity of Value
+                    1. What Problem Do You Solve? (Clarity)
                   </h4>
                   <p className="text-sm mt-1 text-[#0A1128]/90 font-medium">
-                    Can a recruiter, professor, or collaborator understand what you do and what value you provide in under 10 seconds?
+                    Can a friend, recruiter, or collaborator explain what you do in one simple sentence without getting confused?
                   </p>
                 </div>
 
                 <div className="p-4 bg-white text-[#0A1128] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
                   <h4 className="font-display text-xl font-extrabold text-[#0052FF]">
-                    2. Undeniable Proof-of-Work
+                    2. Show Real Evidence (Proof of Work)
                   </h4>
                   <p className="text-sm mt-1 text-[#0A1128]/90 font-medium">
-                    Evidence you have built: articles written, repositories coded, communities led, case studies published, data collected.
+                    Don't just claim skills. Show real examples: projects completed, events organized, articles written, or campus initiatives led.
                   </p>
                 </div>
 
                 <div className="p-4 bg-white text-[#0A1128] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
                   <h4 className="font-display text-xl font-extrabold text-[#0052FF]">
-                    3. Predictability of Character
+                    3. Can People Depend On You? (Reliability)
                   </h4>
                   <p className="text-sm mt-1 text-[#0A1128]/90 font-medium">
-                    Do you deliver on time? Are you proactive in your communication? Do people trust your word when you're 6,000 miles away?
+                    Do you meet deadlines? Do you communicate honestly? When people work with you, do they trust you to get it done?
                   </p>
                 </div>
               </div>
             </div>
             <div className="border-t border-white/30 pt-3">
               <span className="text-xs font-mono font-bold tracking-wider uppercase text-white/90">
-                Personal Brand = What people say about your competence when you leave the Google Meet room.
+                Personal Brand = What people say about your work ethic and character when you leave the room.
               </span>
             </div>
           </Card>
@@ -662,7 +662,7 @@ export const slides: SlideDef[] = [
             <span className="text-[#0052FF] ml-3">The Compounding Flywheel</span>
           </h2>
           <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            In a fast-moving borderless economy, the only sustainable advantage is the velocity of your learning.
+            In a fast-moving borderless economy, the only sustainable advantage is how fast you learn and apply new things.
           </p>
         </div>
 
@@ -674,18 +674,18 @@ export const slides: SlideDef[] = [
                   <BookOpen className="h-6 w-6 text-[#0052FF]" />
                 </span>
                 <h3 className="font-display text-2xl font-bold text-[#0A1128]">
-                  01. Learn in Public
+                  01. Don't Just Consume — Practice
                 </h3>
               </div>
               <p className="slide-body mt-4 text-[#0A1128]/85 text-lg">
-                Escape "Tutorial Hell". Stop watching 40-hour video courses without writing a line of your own code or drafting your own proposal.
+                Watching endless videos or reading books without doing anything gives a false feeling of progress. Apply what you learn immediately: solve a real problem, write a summary, lead a group project, or create a working draft.
               </p>
               <div className="mt-4 bg-[#FAF7EE] border-l-4 border-[#0052FF] p-3 text-sm font-semibold">
-                Rule: For every 1 hour of consumption, spend 2 hours building an artifact.
+                The 2x Rule: For every 1 hour you spend studying, spend 2 hours creating something real.
               </div>
             </div>
             <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">Stage 1: Input into Artifact</span>
+              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">Stage 1: Turn Knowledge Into Real Experience</span>
             </div>
           </Card>
 
@@ -696,18 +696,18 @@ export const slides: SlideDef[] = [
                   <TrendingUp className="h-6 w-6 text-white" />
                 </span>
                 <h3 className="font-display text-2xl font-bold text-[#0052FF]">
-                  02. Ruthless Consistency
+                  02. Show Up Every Single Day
                 </h3>
               </div>
               <p className="slide-body mt-4 text-[#0A1128]/85 text-lg">
-                Consistency is not about 14-hour burnout sprints. It is about never letting the streak break. Showing up day after day when nobody is clapping.
+                Progress doesn't come from working 15 hours once a month and burning out. It comes from daily, quiet discipline. Doing just 1 hour of focused effort every day builds momentum that nobody can take away from you.
               </p>
               <div className="mt-4 bg-white border-l-4 border-[#0A1128] p-3 text-sm font-semibold">
-                The 1% Rule: Compounding 1% daily growth yields 37x improvement over 365 days.
+                The 1% Rule: Getting 1% better every day makes you 37 times better by the end of the year.
               </div>
             </div>
             <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">Stage 2: Compounding Leverage</span>
+              <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">Stage 2: Daily Consistency Always Wins</span>
             </div>
           </Card>
 
@@ -718,18 +718,18 @@ export const slides: SlideDef[] = [
                   <RefreshCw className="h-6 w-6 text-[#0052FF]" />
                 </span>
                 <h3 className="font-display text-2xl font-bold text-[#0A1128]">
-                  03. Unlearning &amp; Re-skilling
+                  03. Be Ready to Learn New Ways
                 </h3>
               </div>
               <p className="slide-body mt-4 text-[#0A1128]/85 text-lg">
-                The skills that got you your first role or campus leadership post will NOT keep you relevant in 3 years. You must ruthlessly reinvent your stack.
+                Tools, job roles, and methods change constantly. What worked in year one won't be enough when you graduate. Fall in love with solving problems, not with one specific tool, degree title, or routine.
               </p>
               <div className="mt-4 bg-[#FAF7EE] border-l-4 border-[#0052FF] p-3 text-sm font-semibold">
-                Adaptability: Be loyal to your problem-solving mission, not to a single programming language or title.
+                Lifelong Curiosity: The best performers stay willing to be beginners whenever the world changes.
               </div>
             </div>
             <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">Stage 3: Perpetual Evolution</span>
+              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">Stage 3: Keep Reinventing Yourself</span>
             </div>
           </Card>
         </div>
