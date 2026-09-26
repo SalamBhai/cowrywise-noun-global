@@ -266,15 +266,34 @@ export const slides: SlideDef[] = [
           {/* Header */}
           <div className="flex items-center justify-between shrink-0">
             <div>
-              <h2 className="slide-title" style={{ fontSize: 60 }}>
+              <h2 className="slide-title" style={{ fontSize: 58 }}>
                 My Philosophy of Change: <span className="text-[#0052FF]">Soil on Your Shoes</span>
               </h2>
-              <p className="slide-subtitle mt-1 text-[#0A1128]/85 font-bold" style={{ fontSize: 28 }}>
+              <p className="slide-subtitle mt-1 text-[#0A1128]/85 font-bold" style={{ fontSize: 26 }}>
                 From Clearing Drainage Gutters in Lagos to the Green Chamber &amp; Ministry of Foreign Affairs
               </p>
             </div>
             <span className="slide-kicker brut-flat border-[3px] border-[#0A1128] bg-white px-5 py-2 uppercase tracking-widest text-[#0052FF] font-black shadow-[4px_4px_0_0_#0A1128] shrink-0">
               Sheriffdeen Saula
+            </span>
+          </div>
+
+          {/* Credential Proof-of-Work Badges */}
+          <div className="flex items-center gap-3 overflow-hidden shrink-0">
+            <span className="px-3.5 py-1.5 bg-[#FAF7EE] border-2 border-[#0A1128] font-mono text-xs font-black uppercase text-[#0A1128] shadow-[2px_2px_0_0_#0A1128]">
+              🏆 Gold Prize · 2024 ENYATA Buildathon
+            </span>
+            <span className="px-3.5 py-1.5 bg-[#FAF7EE] border-2 border-[#0A1128] font-mono text-xs font-black uppercase text-[#0A1128] shadow-[2px_2px_0_0_#0A1128]">
+              ⚙️ Co-Founder &amp; Lead Engineer · Dattego
+            </span>
+            <span className="px-3.5 py-1.5 bg-[#FAF7EE] border-2 border-[#0A1128] font-mono text-xs font-black uppercase text-[#0A1128] shadow-[2px_2px_0_0_#0A1128]">
+              🎖️ 2026 Nigerian Volunteers Award (NVA)
+            </span>
+            <span className="px-3.5 py-1.5 bg-[#FAF7EE] border-2 border-[#0A1128] font-mono text-xs font-black uppercase text-[#0A1128] shadow-[2px_2px_0_0_#0A1128]">
+              🏛️ 2026 Brands Chair · JCI Ikeja
+            </span>
+            <span className="px-3.5 py-1.5 bg-[#FAF7EE] border-2 border-[#0A1128] font-mono text-xs font-black uppercase text-[#0A1128] shadow-[2px_2px_0_0_#0A1128]">
+              🌟 2025 TOYP Nominee
             </span>
           </div>
 
@@ -390,101 +409,127 @@ export const slides: SlideDef[] = [
   },
 
   /* ==========================================================================
-     SLIDE 4: THE MEANS TO ACCESS - THE 2 DIVISIONS
+     SLIDE 4: THE MEANS TO ACCESS - THE 2 DIVISIONS (BIO BREAKDOWN)
      ========================================================================== */
   {
     id: "the-two-divisions",
     title: "The Means to Access: The 2 Divisions of Global Opportunity",
-    notes:
-      "FRAMEWORK BREAKDOWN: Distinguish clearly between the two primary highways to global access. Division 1: The Skill/Academic Route (Hard craftsmanship, software engineering, research, scholarships, fellowships like Mastercard/Chevening). Division 2: The Social Impact Route (Community organizing, climate action, policy, UN youth councils, YALI, Millennium Fellowship). Emphasize: 'The magic happens when you merge both. A technical builder who understands social impact is an unstoppable global force.'",
     render: ({ index, total }) => (
       <SlideLayout index={index} total={total} label="03: Access Vehicles">
-        <div>
-          <h2 className="slide-title">
-            The Two Gateways:
-            <span className="text-[#0052FF] ml-3">Skill/Academic vs. Social Impact</span>
-          </h2>
-          <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            Every global opportunity enters through one of these two doors—or their intersection.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          {/* Route A: Skill / Academic */}
-          <Card className="col-span-6 p-8 flex flex-col justify-between">
+        <div className="flex h-full flex-col justify-between gap-4">
+          {/* Header */}
+          <div className="flex items-center justify-between shrink-0">
             <div>
-              <div className="flex items-center justify-between">
-                <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] px-4 py-1.5 text-xs font-bold text-white uppercase tracking-wider">
-                  Division 01
-                </span>
-                <GraduationCap className="h-8 w-8 text-[#0052FF]" />
-              </div>
-              <h3 className="font-display text-3xl font-extrabold text-[#0A1128] mt-4">
-                The Skill &amp; Academic Route
-              </h3>
-              <p className="text-base font-semibold text-[#0052FF] uppercase tracking-wider mt-1">
-                Currency: Technical Mastery &amp; Intellectual Rigor
+              <h2 className="slide-title" style={{ fontSize: 58 }}>
+                The Means to Access: <span className="text-[#0052FF]">The Two Gateways</span>
+              </h2>
+              <p className="slide-subtitle mt-1 text-[#0A1128]/85 font-bold" style={{ fontSize: 26 }}>
+                Case in Point: Bridging Technical Innovation &amp; Grassroots Civic Impact
               </p>
+            </div>
+            <span className="slide-kicker brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] px-5 py-2 uppercase tracking-widest text-white font-black shadow-[4px_4px_0_0_#0A1128] shrink-0">
+              The Dual-Engine Blueprint
+            </span>
+          </div>
 
-              <div className="mt-6 space-y-3">
-                <div className="p-3 bg-[#FAF7EE] border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-base text-[#0A1128]">Primary Vehicles:</p>
-                  <p className="text-sm text-[#0A1128]/80 mt-1">
-                    Software engineering, data science, product design, international scholarships (Chevening, Erasmus Mundus, Rhodes), technical research &amp; labs.
+          {/* Side-by-Side: The Two Divisions */}
+          <div className="grid grid-cols-12 gap-7 flex-1 items-stretch min-h-0">
+            {/* Division 01: Skill & Technical Track */}
+            <Card className="col-span-6 p-7 flex flex-col justify-between" tone="paper">
+              <div>
+                <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20">
+                  <span className="font-mono text-xs font-black uppercase tracking-wider text-white bg-[#0052FF] px-3 py-1">
+                    Division 01 · Technical Craft
+                  </span>
+                  <GraduationCap className="h-7 w-7 text-[#0052FF]" />
+                </div>
+
+                <div className="mt-4">
+                  <span className="font-mono text-xs font-bold text-[#0052FF] uppercase tracking-wider">
+                    Role &amp; Enterprise Execution:
+                  </span>
+                  <h3 className="font-display text-2xl font-extrabold text-[#0A1128] mt-1 leading-snug">
+                    Co-Founder &amp; Lead Product Engineer, Dattego
+                  </h3>
+                  <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                    Building scalable digital infrastructure, enterprise backend architectures across .NET, modern cloud systems, and recycling incentive tech.
                   </p>
                 </div>
-                <div className="p-3 bg-[#FAF7EE] border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-base text-[#0A1128]">How You Qualify:</p>
-                  <p className="text-sm text-[#0A1128]/80 mt-1">
-                    GitHub repositories, live deployed apps, publications, academic distinction, algorithmic proficiency, verifiable domain expertise.
+
+                {/* Proof & Recognition */}
+                <div className="mt-4 p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                  <p className="font-mono text-xs font-black uppercase text-[#0052FF]">
+                    Verified Technical Evidence:
                   </p>
+                  <ul className="mt-2 space-y-1.5 text-sm font-bold text-[#0A1128]">
+                    <li>🥇 Gold Prize Winner · 2024 ENYATA National Buildathon</li>
+                    <li>💻 Recognized ProduceAfrica Code Champion</li>
+                    <li>⚡ Architecting enterprise .NET &amp; modern cloud web systems</li>
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-4 mt-4">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
-                Focus: Solve hard problems with undeniable technical competence.
-              </span>
-            </div>
-          </Card>
 
-          {/* Route B: Social Impact */}
-          <Card className="col-span-6 p-8 flex flex-col justify-between" tone="soft">
-            <div>
-              <div className="flex items-center justify-between">
-                <span className="brut-flat border-[3px] border-[#0A1128] bg-white px-4 py-1.5 text-xs font-bold text-[#0052FF] uppercase tracking-wider border-[#0A1128]">
-                  Division 02
+              <div className="mt-4 pt-3 border-t-2 border-[#0A1128]/20">
+                <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
+                  Global Doors Unlocked: Remote Engineering · Tech Hackathons · Global Grants
                 </span>
-                <HeartHandshake className="h-8 w-8 text-[#0052FF]" />
               </div>
-              <h3 className="font-display text-3xl font-extrabold text-[#0052FF] mt-4">
-                The Social Impact Route
-              </h3>
-              <p className="text-base font-semibold text-[#0A1128] uppercase tracking-wider mt-1">
-                Currency: Community Mobilization &amp; Measurable Change
-              </p>
+            </Card>
 
-              <div className="mt-6 space-y-3">
-                <div className="p-3 bg-white border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-base text-[#0A1128]">Primary Vehicles:</p>
-                  <p className="text-sm text-[#0A1128]/80 mt-1">
-                    Campus initiatives (Cowrywise Ambassadors), UN Sustainable Development Goals (SDGs), Millennium Fellowship, YALI, climate advocacy, policy councils.
+            {/* Division 02: Social Impact & Civic Leadership Track */}
+            <Card className="col-span-6 p-7 flex flex-col justify-between" tone="soft">
+              <div>
+                <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20">
+                  <span className="font-mono text-xs font-black uppercase tracking-wider text-white bg-[#0A1128] px-3 py-1">
+                    Division 02 · Social Impact
+                  </span>
+                  <HeartHandshake className="h-7 w-7 text-[#0052FF]" />
+                </div>
+
+                <div className="mt-4">
+                  <span className="font-mono text-xs font-bold text-[#0052FF] uppercase tracking-wider">
+                    Role &amp; Civic Leadership:
+                  </span>
+                  <h3 className="font-display text-2xl font-extrabold text-[#0052FF] mt-1 leading-snug">
+                    2026 Brands &amp; Comms Chairperson, JCI Ikeja
+                  </h3>
+                  <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                    Leading youth development, sustainability education, circular economy advocacy, and high-impact volunteer initiatives across Nigeria.
                   </p>
                 </div>
-                <div className="p-3 bg-white border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-base text-[#0A1128]">How You Qualify:</p>
-                  <p className="text-sm text-[#0A1128]/80 mt-1">
-                    Documented beneficiary impact, campaigns led, communities engaged, policy papers, advocacy data gathered, volunteer leadership.
+
+                {/* Proof & Recognition */}
+                <div className="mt-4 p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                  <p className="font-mono text-xs font-black uppercase text-[#0052FF]">
+                    Verified Civic Evidence:
                   </p>
+                  <ul className="mt-2 space-y-1.5 text-sm font-bold text-[#0A1128]">
+                    <li>🎖️ Recipient · 2026 Nigerian Volunteers Award (NVA)</li>
+                    <li>🌟 2025 TOYP Tech Innovator Nominee (JCIN OOU)</li>
+                    <li>🌍 Inducted Fellow · African Transformer Institute (Diplomatic Conf.)</li>
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-4 mt-4">
-              <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">
-                Focus: Solve human problems with empathy, mobilization &amp; evidence.
+
+              <div className="mt-4 pt-3 border-t-2 border-[#0A1128]/20">
+                <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">
+                  Global Doors Unlocked: Diplomatic Summits · UN Fellowships · Impact Capital
+                </span>
+              </div>
+            </Card>
+          </div>
+
+          {/* Bottom Banner: The Asymmetric Sweet Spot */}
+          <div className="p-5 bg-white border-[4px] border-[#0A1128] shadow-[8px_8px_0_0_#0052FF] flex items-center justify-between shrink-0">
+            <div className="flex items-center gap-4">
+              <span className="px-3 py-1 bg-[#0052FF] text-white font-mono font-black text-xs uppercase shrink-0">
+                The Asymmetric Outlier
               </span>
+              <p className="text-lg font-bold text-[#0A1128] leading-tight">
+                "Coders who ignore society are easily outsourced. Advocates who cannot build tools remain ineffective. When you bridge <span className="text-[#0052FF]">hard engineering</span> with <span className="text-[#0052FF]">grassroots civic impact</span>, you become an unstoppable global force."
+              </p>
             </div>
-          </Card>
+          </div>
         </div>
       </SlideLayout>
     ),
