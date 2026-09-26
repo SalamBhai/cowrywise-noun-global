@@ -122,113 +122,131 @@ export const slides: SlideDef[] = [
     title: "Why Youths Should Chase Global Opportunities: A Tale of Two Billionaires",
     render: ({ index, total }) => (
       <SlideLayout index={index} total={total} label="01: The Debate & Strategic Imperative">
-        <div className="flex items-start justify-between">
-          <div>
-            <h2 className="slide-title">
-              Why Youths Should Chase Global Opportunities
-            </h2>
-            <p className="slide-subtitle mt-1 text-[#0052FF] font-semibold">
-              The Comparison of Two Billionaires: Iyinoluwa Aboyeji x Atedo Peterside
-            </p>
-          </div>
-          <a
-            href="https://www.instagram.com/reels/DbKXWU7omXs/"
-            target="_blank"
-            rel="noreferrer"
-            className="deck-ui-btn px-4 py-2 bg-[#0052FF] text-white hover:bg-[#0039C7] text-sm font-bold shadow-[4px_4px_0_0_#0A1128]"
-          >
-            <ExternalLink className="h-4 w-4 mr-1.5" /> Watch Case Reel ↗
-          </a>
-        </div>
-
-        {/* Top: The Two Perspectives */}
-        <div className="grid grid-cols-12 gap-6 items-stretch my-3">
-          <Card className="col-span-6 p-6 flex flex-col justify-between" tone="paper">
+        <div className="flex h-full flex-col justify-between gap-4">
+          {/* Header */}
+          <div className="flex items-center justify-between shrink-0">
             <div>
-              <div className="flex items-center justify-between pb-2 border-b-2 border-[#0A1128]/20">
-                <span className="font-mono text-xs font-extrabold uppercase tracking-widest text-[#0052FF]">
-                  01 · The Builder's Critique
-                </span>
-                <span className="font-display font-extrabold text-sm text-[#0A1128]">
-                  Iyinoluwa Aboyeji (Andela / Unicorns)
-                </span>
-              </div>
-              <p className="font-display text-2xl font-extrabold text-[#0A1128] mt-4 leading-snug">
-                "Youths have become influencers and performing artists—not builders."
-              </p>
-              <p className="text-base text-[#0A1128]/85 mt-2.5 leading-relaxed font-medium">
-                Subjecting ourselves to mediocrity, chasing digital validation, and mistakenly believing there is no longer value in deep craft and excellence.
+              <h2 className="slide-title" style={{ fontSize: 62 }}>
+                Why Youths Should Chase Global Opportunities
+              </h2>
+              <p className="slide-subtitle mt-1 text-[#0052FF] font-bold" style={{ fontSize: 30 }}>
+                The Comparison of Two Billionaires: Iyinoluwa Aboyeji x Atedo Peterside
               </p>
             </div>
-            <div className="mt-3 pt-2 border-t border-[#0A1128]/15">
-              <span className="text-xs font-mono font-bold text-red-600 uppercase">
-                Diagnosis: The trap of performative noise over tangible creation.
-              </span>
-            </div>
-          </Card>
-
-          <Card className="col-span-6 p-6 flex flex-col justify-between" tone="paper">
-            <div>
-              <div className="flex items-center justify-between pb-2 border-b-2 border-[#0A1128]/20">
-                <span className="font-mono text-xs font-extrabold uppercase tracking-widest text-[#0052FF]">
-                  02 · The Systemic Reality
-                </span>
-                <span className="font-display font-extrabold text-sm text-[#0A1128]">
-                  Atedo Peterside (Stanbic IBTC)
-                </span>
-              </div>
-              <p className="font-display text-2xl font-extrabold text-[#0A1128] mt-4 leading-snug">
-                "The current governance system actively stifles youth growth."
-              </p>
-              <p className="text-base text-[#0A1128]/85 mt-2.5 leading-relaxed font-medium">
-                The older generation who control governance and institutions have closed the ladder, failing to provide the enabling environment they enjoyed decades ago.
-              </p>
-            </div>
-            <div className="mt-3 pt-2 border-t border-[#0A1128]/15">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
-                Diagnosis: The structural ceiling that forces us to look beyond borders.
-              </span>
-            </div>
-          </Card>
-        </div>
-
-        {/* Bottom: Avenues for Corrective Action */}
-        <div className="p-5 bg-white border-[3.5px] border-[#0A1128] shadow-[8px_8px_0_0_#0052FF]">
-          <div className="flex items-center justify-between mb-3 pb-2 border-b-2 border-[#0A1128]/20">
-            <span className="font-mono text-xs font-bold uppercase tracking-wider text-[#0052FF]">
-              The Critique Is Not Condemnatory — It Is A Blueprint For Transition
-            </span>
-            <span className="text-xs font-mono font-bold text-[#0A1128]/70 uppercase">
-              3 Levers For The Younger Generation
-            </span>
+            <a
+              href="https://www.instagram.com/reels/DbKXWU7omXs/"
+              target="_blank"
+              rel="noreferrer"
+              className="deck-ui-btn px-6 py-3.5 bg-[#0052FF] text-white hover:bg-[#0039C7] text-base font-extrabold shadow-[5px_5px_0_0_#0A1128] shrink-0"
+            >
+              <ExternalLink className="h-5 w-5 mr-2" /> Watch Case Reel ↗
+            </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-5">
-            <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0A1128]">
-              <span className="font-mono text-xs font-extrabold text-[#0052FF] block mb-1">
-                01. EXPRESSION → INTROSPECTION
+          {/* Top: The Two Perspectives (Expanded) */}
+          <div className="grid grid-cols-12 gap-7 flex-1 items-stretch">
+            <Card className="col-span-6 p-7 flex flex-col justify-between" tone="paper">
+              <div>
+                <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20">
+                  <span className="font-mono text-sm font-extrabold uppercase tracking-widest text-[#0052FF]">
+                    01 · The Builder's Critique
+                  </span>
+                  <span className="font-display font-extrabold text-base text-[#0A1128]">
+                    Iyinoluwa Aboyeji (Andela / Unicorns)
+                  </span>
+                </div>
+                <p className="font-display text-3xl font-extrabold text-[#0A1128] mt-4 leading-snug">
+                  "Youths have become influencers and performing artists—not builders."
+                </p>
+                <p className="text-xl text-[#0A1128]/85 mt-3 leading-relaxed font-semibold">
+                  Subjecting ourselves to mediocrity, chasing digital validation, and mistakenly believing there is no longer value in deep craft and excellence.
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t-2 border-[#0A1128]/20">
+                <span className="text-sm font-mono font-bold text-red-600 uppercase">
+                  Diagnosis: The trap of performative noise over tangible creation.
+                </span>
+              </div>
+            </Card>
+
+            <Card className="col-span-6 p-7 flex flex-col justify-between" tone="paper">
+              <div>
+                <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20">
+                  <span className="font-mono text-sm font-extrabold uppercase tracking-widest text-[#0052FF]">
+                    02 · The Systemic Reality
+                  </span>
+                  <span className="font-display font-extrabold text-base text-[#0A1128]">
+                    Atedo Peterside (Stanbic IBTC)
+                  </span>
+                </div>
+                <p className="font-display text-3xl font-extrabold text-[#0A1128] mt-4 leading-snug">
+                  "The current governance system actively stifles youth growth."
+                </p>
+                <p className="text-xl text-[#0A1128]/85 mt-3 leading-relaxed font-semibold">
+                  The older generation who control governance and institutions have closed the ladder, failing to provide the enabling environment they enjoyed decades ago.
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t-2 border-[#0A1128]/20">
+                <span className="text-sm font-mono font-bold text-[#0052FF] uppercase">
+                  Diagnosis: The structural ceiling that forces us to look beyond borders.
+                </span>
+              </div>
+            </Card>
+          </div>
+
+          {/* Bottom: Avenues for Corrective Action (WIDENED & HIGH LEGIBILITY) */}
+          <div className="p-7 bg-white border-[4px] border-[#0A1128] shadow-[10px_10px_0_0_#0052FF] flex flex-col justify-between shrink-0">
+            <div className="flex items-center justify-between pb-3 mb-4 border-b-[3px] border-[#0A1128]/20">
+              <span className="font-mono text-sm font-extrabold uppercase tracking-wider text-[#0052FF]">
+                The Critique Is Not Condemnatory — It Is A Blueprint For Systemic Transition
               </span>
-              <p className="text-sm font-semibold text-[#0A1128] leading-snug">
-                Moving past superficial anger and complaining on social media toward deep introspection, structural planning, and securing local systems.
-              </p>
+              <span className="text-xs font-mono font-extrabold text-[#0A1128]/80 uppercase">
+                3 Imperative Levers For Our Generation
+              </span>
             </div>
 
-            <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0A1128]">
-              <span className="font-mono text-xs font-extrabold text-[#0052FF] block mb-1">
-                02. COALITION OF THE WILLING
-              </span>
-              <p className="text-sm font-semibold text-[#0A1128] leading-snug">
-                Abandoning performative rooms and youth confabs in favor of working directly with trusted peers to build hard infrastructure and economic value.
-              </p>
-            </div>
+            <div className="grid grid-cols-3 gap-6">
+              <div className="p-5 bg-[#FAF7EE] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-2 py-0.5 bg-[#0052FF] text-white font-mono font-extrabold text-xs">
+                    01
+                  </span>
+                  <span className="font-mono text-xs font-black text-[#0052FF] tracking-wider uppercase">
+                    EXPRESSION → INTROSPECTION
+                  </span>
+                </div>
+                <p className="text-base font-bold text-[#0A1128] leading-snug mt-1">
+                  Moving past superficial anger and complaining on social media toward deep introspection, structural planning, and securing local systems.
+                </p>
+              </div>
 
-            <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0A1128]">
-              <span className="font-mono text-xs font-extrabold text-[#0052FF] block mb-1">
-                03. TAKING OWNERSHIP
-              </span>
-              <p className="text-sm font-semibold text-[#0A1128] leading-snug">
-                Accepting that older leadership will pass down broken systems—making it our imperative duty to construct functional institutions and long-term assets.
-              </p>
+              <div className="p-5 bg-[#FAF7EE] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-2 py-0.5 bg-[#0052FF] text-white font-mono font-extrabold text-xs">
+                    02
+                  </span>
+                  <span className="font-mono text-xs font-black text-[#0052FF] tracking-wider uppercase">
+                    COALITION OF THE WILLING
+                  </span>
+                </div>
+                <p className="text-base font-bold text-[#0A1128] leading-snug mt-1">
+                  Abandoning performative rooms and youth confabs in favor of working directly with trusted peers to build hard infrastructure and economic value.
+                </p>
+              </div>
+
+              <div className="p-5 bg-[#FAF7EE] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-2 py-0.5 bg-[#0052FF] text-white font-mono font-extrabold text-xs">
+                    03
+                  </span>
+                  <span className="font-mono text-xs font-black text-[#0052FF] tracking-wider uppercase">
+                    TAKING OWNERSHIP
+                  </span>
+                </div>
+                <p className="text-base font-bold text-[#0A1128] leading-snug mt-1">
+                  Accepting that older leadership will pass down broken systems—making it our imperative duty to construct functional institutions and long-term assets.
+                </p>
+              </div>
             </div>
           </div>
         </div>
