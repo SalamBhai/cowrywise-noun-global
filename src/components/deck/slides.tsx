@@ -255,83 +255,134 @@ export const slides: SlideDef[] = [
   },
 
   /* ==========================================================================
-     SLIDE 3: PERSONAL PHILOSOPHY OF CHANGE
+     SLIDE 3: PERSONAL PHILOSOPHY OF CHANGE & INTRODUCTION
      ========================================================================== */
   {
     id: "philosophy-of-change",
-    title: "Personal Introduction: My Philosophy of Change",
-    notes:
-      "STORYTELLING & GROUNDING: Share your background as a software engineer and builder. Introduce your personal philosophy of change: 'Change is not an accident of fate; it is an engineering discipline.' When you understand that systems are created by people no smarter than you, you stop asking for permission. Explain that your pursuit of global opportunities isn't about running away from home—it's about gathering leverage and tools to build sustainable systems back home.",
+    title: "Personal Introduction: My Philosophy of Change — From Gutters to the Green Chamber",
     render: ({ index, total }) => (
-      <SlideLayout index={index} total={total} label="02: Grounding & Philosophy">
-        <div>
-          <h2 className="slide-title">
-            My Philosophy of Change:
-            <span className="text-[#0052FF] ml-3">Engineering Agency</span>
-          </h2>
-          <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            How a framework of systemic change dictates my pursuit of global opportunities.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          {/* Left: Philosophy Core */}
-          <Card className="col-span-5 p-8 flex flex-col justify-between" tone="deep">
+      <SlideLayout index={index} total={total} label="02: Relatability & Theory of Change">
+        <div className="flex h-full flex-col justify-between gap-4">
+          {/* Header */}
+          <div className="flex items-center justify-between shrink-0">
             <div>
-              <div className="inline-block border border-white/30 bg-white/10 px-4 py-1 font-mono text-xs uppercase tracking-widest text-[#FAF7EE]">
-                Core Axiom
-              </div>
-              <blockquote className="mt-6 font-display text-3xl font-extrabold leading-snug text-white">
-                "Change is not something you passively wait for. Change is an engineering discipline."
-              </blockquote>
-              <p className="mt-6 text-lg text-white/85 leading-relaxed">
-                Every broken system—from outdated curriculums to fractured supply chains—was designed by ordinary people. Which means it can be re-engineered by anyone with the right leverage, tools, and persistence.
+              <h2 className="slide-title" style={{ fontSize: 60 }}>
+                My Philosophy of Change: <span className="text-[#0052FF]">Soil on Your Shoes</span>
+              </h2>
+              <p className="slide-subtitle mt-1 text-[#0A1128]/85 font-bold" style={{ fontSize: 28 }}>
+                From Clearing Drainage Gutters in Lagos to the Green Chamber &amp; Ministry of Foreign Affairs
               </p>
             </div>
-            <div className="rounded border-2 border-white/30 bg-white/5 p-4">
-              <p className="font-mono text-xs uppercase tracking-wider text-white/70">
-                Sheriffdeen Saula · Builder's Mindset
-              </p>
+            <span className="slide-kicker brut-flat border-[3px] border-[#0A1128] bg-white px-5 py-2 uppercase tracking-widest text-[#0052FF] font-black shadow-[4px_4px_0_0_#0A1128] shrink-0">
+              Sheriffdeen Saula
+            </span>
+          </div>
+
+          {/* Main Content: Left Photos, Right Theory */}
+          <div className="grid grid-cols-12 gap-7 flex-1 items-stretch min-h-0">
+            {/* Left Column: Visual Proof-of-Work (The Two Realities) */}
+            <div className="col-span-5 flex flex-col justify-between gap-4">
+              {/* Photo 1: Grassroots */}
+              <div className="p-4 bg-white border-[3.5px] border-[#0A1128] shadow-[6px_6px_0_0_#0A1128] flex-1 flex flex-col justify-between">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="font-mono text-xs font-black uppercase tracking-wider text-red-600 bg-red-50 border border-red-200 px-2 py-0.5">
+                    Phase 1 · Soil on the Shoes
+                  </span>
+                  <span className="font-mono text-xs font-bold text-[#0A1128]/70">Lagos Streets</span>
+                </div>
+                <div className="h-[155px] w-full border-2 border-[#0A1128] overflow-hidden bg-[#0A1128]">
+                  <img
+                    src="/grassroots-volunteering.jpg"
+                    alt="Sheriffdeen Saula grassroots volunteering"
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <p className="text-sm font-bold text-[#0A1128] mt-2 leading-snug">
+                  Clearing gutters with shovels, packing waste at EidFest Lagos, and earning credibility from zero through physical service.
+                </p>
+              </div>
+
+              {/* Photo 2: Policy Chambers */}
+              <div className="p-4 bg-[#EBF2FF] border-[3.5px] border-[#0A1128] shadow-[6px_6px_0_0_#0052FF] flex-1 flex flex-col justify-between">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="font-mono text-xs font-black uppercase tracking-wider text-[#0052FF] bg-white border border-[#0052FF] px-2 py-0.5">
+                    Phase 2 · The Policy Chambers
+                  </span>
+                  <span className="font-mono text-xs font-bold text-[#0A1128]/70">Abuja</span>
+                </div>
+                <div className="h-[155px] w-full border-2 border-[#0A1128] overflow-hidden bg-[#0A1128]">
+                  <img
+                    src="/diplomatic-fellowship.jpg"
+                    alt="Sheriffdeen Saula diplomatic conference"
+                    className="h-full w-full object-cover object-top"
+                  />
+                </div>
+                <p className="text-sm font-bold text-[#0A1128] mt-2 leading-snug">
+                  Inducted as Fellow, African Transformer Institute · The Green Chamber (House of Reps) · Ministry of Foreign Affairs.
+                </p>
+              </div>
             </div>
-          </Card>
 
-          {/* Right: 3 Pillars of Change */}
-          <div className="col-span-7 flex flex-col justify-between gap-4">
-            <Card className="p-6 flex-1 flex flex-col justify-center">
-              <div className="flex items-center gap-3">
-                <span className="rounded-full bg-[#0052FF] text-white px-3 py-1 font-mono font-bold text-sm">01</span>
-                <h4 className="font-display text-2xl font-bold text-[#0A1128]">
-                  Agency Over Circumstance
-                </h4>
+            {/* Right Column: The Core Philosophy & 80% Mantra */}
+            <div className="col-span-7 flex flex-col justify-between gap-4">
+              {/* The 80% Callout Banner */}
+              <div className="p-6 bg-[#0052FF] text-white border-[4px] border-[#0A1128] shadow-[8px_8px_0_0_#0A1128]">
+                <span className="font-mono text-xs font-black uppercase tracking-widest text-[#FAF7EE] bg-white/20 border border-white/40 px-3 py-1 inline-block mb-2">
+                  Core Conviction
+                </span>
+                <h3 className="font-display text-4xl lg:text-[40px] font-black leading-tight text-white">
+                  "80% of the Youth Population Must Become POLICYMAKERS!"
+                </h3>
+                <p className="text-lg text-white/90 font-semibold mt-2 leading-snug">
+                  Not by waiting for an appointment or a political godfather, but by taking radical ownership of local systems through undeniable proof-of-work.
+                </p>
               </div>
-              <p className="slide-body mt-2 text-[#0A1128]/85 text-xl">
-                You cannot control where your classroom is situated, but you have 100% jurisdiction over what you build, what you write, and what you ship onto the internet today.
-              </p>
-            </Card>
 
-            <Card className="p-6 flex-1 flex flex-col justify-center" tone="soft">
-              <div className="flex items-center gap-3">
-                <span className="rounded-full bg-[#0052FF] text-white px-3 py-1 font-mono font-bold text-sm">02</span>
-                <h4 className="font-display text-2xl font-bold text-[#0052FF]">
-                  Global Leverage for Local Impact
-                </h4>
-              </div>
-              <p className="slide-body mt-2 text-[#0A1128]/85 text-xl">
-                Seeking global opportunities is not about abandonment. It is about acquiring global capital, mental models, and technical leverage to solve stubborn local problems.
-              </p>
-            </Card>
+              {/* 3 Relatable Action Axioms */}
+              <div className="flex-1 flex flex-col justify-between gap-3">
+                <div className="p-4 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex items-start gap-4">
+                  <span className="px-2.5 py-1 bg-[#0052FF] text-white font-mono font-black text-sm shrink-0">
+                    01
+                  </span>
+                  <div>
+                    <h4 className="font-display text-xl font-black text-[#0A1128] leading-tight">
+                      Policy Begins at the Gutter Level
+                    </h4>
+                    <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                      If you cannot organize 10 people on your campus or clean your immediate drainage, you have no business drafting policy for millions. Groundwork builds authority.
+                    </p>
+                  </div>
+                </div>
 
-            <Card className="p-6 flex-1 flex flex-col justify-center">
-              <div className="flex items-center gap-3">
-                <span className="rounded-full bg-[#0052FF] text-white px-3 py-1 font-mono font-bold text-sm">03</span>
-                <h4 className="font-display text-2xl font-bold text-[#0A1128]">
-                  Compounding Proof-of-Work
-                </h4>
+                <div className="p-4 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex items-start gap-4">
+                  <span className="px-2.5 py-1 bg-[#0052FF] text-white font-mono font-black text-sm shrink-0">
+                    02
+                  </span>
+                  <div>
+                    <h4 className="font-display text-xl font-black text-[#0A1128] leading-tight">
+                      Proof-of-Work Is Your Borderless Visa
+                    </h4>
+                    <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                      I didn't enter the Ministry of Foreign Affairs because of connections. I entered because tangible community evidence makes you impossible to ignore.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex items-start gap-4">
+                  <span className="px-2.5 py-1 bg-[#0052FF] text-white font-mono font-black text-sm shrink-0">
+                    03
+                  </span>
+                  <div>
+                    <h4 className="font-display text-xl font-black text-[#0A1128] leading-tight">
+                      Global Reach Is Leverage, Not an Escape
+                    </h4>
+                    <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                      We seek international networks, technology, and capital not to abandon where we come from, but to import the leverage required to rebuild our systems.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <p className="slide-body mt-2 text-[#0A1128]/85 text-xl">
-                Trust is not granted by intentions; it is earned through tangible artifacts. When your proof-of-work is undeniable, opportunities seek you out.
-              </p>
-            </Card>
+            </div>
           </div>
         </div>
       </SlideLayout>
