@@ -134,7 +134,7 @@ export const slides: SlideDef[] = [
               </p>
             </div>
             <a
-              href="https://www.instagram.com/reels/DbKXWU7omXs/"
+              href="https://www.instagram.com/p/DbKXWU7omXs/?wa_status_inline=true&wa_logging_event=video_play_open"
               target="_blank"
               rel="noreferrer"
               className="deck-ui-btn px-6 py-3.5 bg-[#0052FF] text-white hover:bg-[#0039C7] text-base font-extrabold shadow-[5px_5px_0_0_#0A1128] shrink-0"
@@ -298,104 +298,113 @@ export const slides: SlideDef[] = [
           </div>
 
           {/* Main Content: Left Photos, Right Theory */}
-          <div className="grid grid-cols-12 gap-7 flex-1 items-stretch min-h-0">
+          <div className="grid grid-cols-12 gap-7 flex-1 min-h-0">
             {/* Left Column: Visual Proof-of-Work (The Two Realities) */}
-            <div className="col-span-5 flex flex-col justify-between gap-4">
+            <div className="col-span-6 grid grid-rows-2 gap-4 h-full min-h-0">
               {/* Photo 1: Grassroots */}
-              <div className="p-4 bg-white border-[3.5px] border-[#0A1128] shadow-[6px_6px_0_0_#0A1128] flex-1 flex flex-col justify-between">
-                <div className="flex items-center justify-between mb-2">
+              <div className="p-3.5 bg-white border-[3.5px] border-[#0A1128] shadow-[5px_5px_0_0_#0A1128] flex flex-col justify-between overflow-hidden">
+                <div className="flex items-center justify-between mb-1.5 shrink-0">
                   <span className="font-mono text-xs font-black uppercase tracking-wider text-red-600 bg-red-50 border border-red-200 px-2 py-0.5">
                     Phase 1: Soil on the Shoes
                   </span>
-                  <span className="font-mono text-xs font-bold text-[#0A1128]/70">Lagos Streets</span>
+                  <span className="font-mono text-xs font-bold text-[#0A1128]/70">Lagos Streets &amp; Communities</span>
                 </div>
-                <div className="flex-1 min-h-[175px] w-full border-2 border-[#0A1128] overflow-hidden bg-[#FAF7EE] flex items-center justify-center p-1">
+                <div className="flex-1 min-h-0 w-full border-2 border-[#0A1128] overflow-hidden bg-[#FAF7EE] flex items-center justify-center p-1">
                   <img
                     src="/grassroots-volunteering.jpg"
                     alt="Sheriffdeen Saula grassroots volunteering"
                     className="h-full w-full object-contain"
                   />
                 </div>
-                <p className="text-sm font-bold text-[#0A1128] mt-2 leading-snug">
+                <p className="text-xs font-bold text-[#0A1128] mt-1.5 leading-snug shrink-0">
                   Clearing gutters with shovels, packing waste at EidFest Lagos, and earning credibility from zero through physical service.
                 </p>
               </div>
 
               {/* Photo 2: Policy Chambers */}
-              <div className="p-4 bg-[#EBF2FF] border-[3.5px] border-[#0A1128] shadow-[6px_6px_0_0_#0052FF] flex-1 flex flex-col justify-between">
-                <div className="flex items-center justify-between mb-2">
+              <div className="p-3.5 bg-[#EBF2FF] border-[3.5px] border-[#0A1128] shadow-[5px_5px_0_0_#0052FF] flex flex-col justify-between overflow-hidden">
+                <div className="flex items-center justify-between mb-1.5 shrink-0">
                   <span className="font-mono text-xs font-black uppercase tracking-wider text-[#0052FF] bg-white border border-[#0052FF] px-2 py-0.5">
                     Phase 2: The Policy Chambers
                   </span>
-                  <span className="font-mono text-xs font-bold text-[#0A1128]/70">Abuja</span>
+                  <span className="font-mono text-xs font-bold text-[#0A1128]/70">Diplomatic Conference 2.0</span>
                 </div>
-                <div className="flex-1 min-h-[175px] w-full border-2 border-[#0A1128] overflow-hidden bg-white flex items-center justify-center p-1">
-                  <img
-                    src="/diplomatic-fellowship.jpg"
-                    alt="Sheriffdeen Saula diplomatic conference"
-                    className="h-full w-full object-contain"
-                  />
+                <div className="flex-1 min-h-0 w-full grid grid-cols-2 gap-2 border-2 border-[#0A1128] overflow-hidden bg-white p-1">
+                  <div className="h-full w-full flex items-center justify-center overflow-hidden bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <img
+                      src="/diplomatic-conf-mfa.png"
+                      alt="Ministry of Foreign Affairs & Green Chamber"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                  <div className="h-full w-full flex items-center justify-center overflow-hidden bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <img
+                      src="/diplomatic-induction.jpg"
+                      alt="Fellow African Transformer Institute induction"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
-                <p className="text-sm font-bold text-[#0A1128] mt-2 leading-snug">
-                  Inducted as Fellow, African Transformer Institute: The Green Chamber (House of Reps) and Ministry of Foreign Affairs.
+                <p className="text-xs font-bold text-[#0A1128] mt-1.5 leading-snug shrink-0">
+                  Inducted as Fellow, African Transformer Institute: Ministry of Foreign Affairs and Green Chamber (House of Reps).
                 </p>
               </div>
             </div>
 
             {/* Right Column: The Core Philosophy & 80% Mantra */}
-            <div className="col-span-7 flex flex-col justify-between gap-4">
+            <div className="col-span-6 flex flex-col justify-between gap-3.5 h-full min-h-0">
               {/* The 80% Callout Banner */}
-              <div className="p-6 bg-[#0052FF] text-white border-[4px] border-[#0A1128] shadow-[8px_8px_0_0_#0A1128]">
-                <span className="font-mono text-xs font-black uppercase tracking-widest text-[#FAF7EE] bg-white/20 border border-white/40 px-3 py-1 inline-block mb-2">
+              <div className="p-5 bg-[#0052FF] text-white border-[3.5px] border-[#0A1128] shadow-[6px_6px_0_0_#0A1128] shrink-0">
+                <span className="font-mono text-xs font-black uppercase tracking-widest text-[#FAF7EE] bg-white/20 border border-white/40 px-2.5 py-0.5 inline-block mb-1.5">
                   Core Conviction
                 </span>
-                <h3 className="font-display text-4xl lg:text-[40px] font-black leading-tight text-white">
+                <h3 className="font-display text-3xl font-black leading-tight text-white">
                   "80% of the Youth Population Must Become POLICYMAKERS!"
                 </h3>
-                <p className="text-lg text-white/90 font-semibold mt-2 leading-snug">
+                <p className="text-base text-white/90 font-semibold mt-1.5 leading-snug">
                   Not by waiting for an appointment or a political godfather, but by taking radical ownership of local systems through undeniable proof-of-work.
                 </p>
               </div>
 
               {/* 3 Relatable Action Axioms */}
-              <div className="flex-1 flex flex-col justify-between gap-3">
-                <div className="p-4 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex items-start gap-4">
-                  <span className="px-2.5 py-1 bg-[#0052FF] text-white font-mono font-black text-sm shrink-0">
+              <div className="grid grid-rows-3 gap-2.5 flex-1 min-h-0">
+                <div className="p-3.5 bg-white border-[2.5px] border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex items-start gap-3 overflow-hidden">
+                  <span className="px-2 py-0.5 bg-[#0052FF] text-white font-mono font-black text-xs shrink-0 mt-0.5">
                     01
                   </span>
                   <div>
-                    <h4 className="font-display text-xl font-black text-[#0A1128] leading-tight">
+                    <h4 className="font-display text-base font-black text-[#0A1128] leading-tight">
                       Policy Begins at the Gutter Level
                     </h4>
-                    <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                    <p className="text-xs font-semibold text-[#0A1128]/85 mt-0.5 leading-normal">
                       If you cannot organize 10 people on your campus or clean your immediate drainage, you have no business drafting policy for millions. Groundwork builds authority.
                     </p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex items-start gap-4">
-                  <span className="px-2.5 py-1 bg-[#0052FF] text-white font-mono font-black text-sm shrink-0">
+                <div className="p-3.5 bg-white border-[2.5px] border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex items-start gap-3 overflow-hidden">
+                  <span className="px-2 py-0.5 bg-[#0052FF] text-white font-mono font-black text-xs shrink-0 mt-0.5">
                     02
                   </span>
                   <div>
-                    <h4 className="font-display text-xl font-black text-[#0A1128] leading-tight">
+                    <h4 className="font-display text-base font-black text-[#0A1128] leading-tight">
                       Proof-of-Work Is Your Borderless Visa
                     </h4>
-                    <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                    <p className="text-xs font-semibold text-[#0A1128]/85 mt-0.5 leading-normal">
                       I didn't enter the Ministry of Foreign Affairs because of connections. I entered because tangible community evidence makes you impossible to ignore.
                     </p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex items-start gap-4">
-                  <span className="px-2.5 py-1 bg-[#0052FF] text-white font-mono font-black text-sm shrink-0">
+                <div className="p-3.5 bg-white border-[2.5px] border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex items-start gap-3 overflow-hidden">
+                  <span className="px-2 py-0.5 bg-[#0052FF] text-white font-mono font-black text-xs shrink-0 mt-0.5">
                     03
                   </span>
                   <div>
-                    <h4 className="font-display text-xl font-black text-[#0A1128] leading-tight">
+                    <h4 className="font-display text-base font-black text-[#0A1128] leading-tight">
                       Global Reach Is Leverage, Not an Escape
                     </h4>
-                    <p className="text-base text-[#0A1128]/85 font-medium mt-1 leading-snug">
+                    <p className="text-xs font-semibold text-[#0A1128]/85 mt-0.5 leading-normal">
                       We seek international networks, technology, and capital not to abandon where we come from, but to import the leverage required to rebuild our systems.
                     </p>
                   </div>
