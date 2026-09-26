@@ -115,83 +115,122 @@ export const slides: SlideDef[] = [
   },
 
   /* ==========================================================================
-     SLIDE 2: THE NEED FOR GLOBAL OPPORTUNITIES
+     SLIDE 2: WHY YOUTHS SHOULD CHASE GLOBAL OPPORTUNITIES
      ========================================================================== */
   {
     id: "need-for-global-opportunities",
-    title: "The Need for Global Opportunities: Beyond the Classroom Ceiling",
-    notes:
-      "KEY MESSAGE: Why are we even talking about global opportunities? Break down the local ceiling versus global scale. Highlight that in Nigeria and across Africa, our physical environment can sometimes place artificial ceilings on career velocity, income, and problem scope. The internet democratized access—your proof-of-work has no geographic boundary. Ask the audience: 'How many of you feel the syllabus in class was written for a world that no longer exists?'",
+    title: "Why Youths Should Chase Global Opportunities: A Tale of Two Billionaires",
     render: ({ index, total }) => (
-      <SlideLayout index={index} total={total} label="01: The Strategic imperative">
-        <div>
-          <h2 className="slide-title">
-            The Need for Global Opportunities:
-            <span className="text-[#0052FF] ml-3">Breaking the Local Ceiling</span>
-          </h2>
-          <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            The four walls of the classroom provide a syllabus; the global market demands solutions.
-          </p>
+      <SlideLayout index={index} total={total} label="01: The Debate & Strategic Imperative">
+        <div className="flex items-start justify-between">
+          <div>
+            <h2 className="slide-title">
+              Why Youths Should Chase Global Opportunities
+            </h2>
+            <p className="slide-subtitle mt-1 text-[#0052FF] font-semibold">
+              The Comparison of Two Billionaires: Iyinoluwa Aboyeji x Atedo Peterside
+            </p>
+          </div>
+          <a
+            href="https://www.instagram.com/reels/DbKXWU7omXs/"
+            target="_blank"
+            rel="noreferrer"
+            className="deck-ui-btn px-4 py-2 bg-[#0052FF] text-white hover:bg-[#0039C7] text-sm font-bold shadow-[4px_4px_0_0_#0A1128]"
+          >
+            <ExternalLink className="h-4 w-4 mr-1.5" /> Watch Case Reel ↗
+          </a>
         </div>
 
-        <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          <Card className="col-span-6 p-8 flex flex-col justify-between">
+        {/* Top: The Two Perspectives */}
+        <div className="grid grid-cols-12 gap-6 items-stretch my-3">
+          <Card className="col-span-6 p-6 flex flex-col justify-between" tone="paper">
             <div>
-              <div className="flex items-center gap-3">
-                <span className="brut-flat border-[3px] border-[#0A1128] bg-[#FAF7EE] p-2 text-[#0A1128]">
-                  <Scale className="h-7 w-7 text-[#0052FF]" />
+              <div className="flex items-center justify-between pb-2 border-b-2 border-[#0A1128]/20">
+                <span className="font-mono text-xs font-extrabold uppercase tracking-widest text-[#0052FF]">
+                  01 · The Builder's Critique
                 </span>
-                <h3 className="font-display text-3xl font-extrabold text-[#0A1128]">
-                  The Reality of the Local Ceiling
-                </h3>
+                <span className="font-display font-extrabold text-sm text-[#0A1128]">
+                  Iyinoluwa Aboyeji (Andela / Unicorns)
+                </span>
               </div>
-              <ul className="mt-6 space-y-4">
-                <Bullet>
-                  <strong className="text-[#0052FF]">Currency &amp; Purchasing Power:</strong> Earning and scaling locally exposes you to currency devaluation and constrained regional budgets.
-                </Bullet>
-                <Bullet>
-                  <strong className="text-[#0052FF]">Narrow Problem Scope:</strong> Local institutions often incentivize conformity and credentialism over original problem-solving.
-                </Bullet>
-                <Bullet>
-                  <strong className="text-[#0052FF]">Underutilized Potential:</strong> Millions of brilliant minds are trapped competing for a tiny pool of domestic vacancies.
-                </Bullet>
-              </ul>
+              <p className="font-display text-2xl font-extrabold text-[#0A1128] mt-4 leading-snug">
+                "Youths have become influencers and performing artists—not builders."
+              </p>
+              <p className="text-base text-[#0A1128]/85 mt-2.5 leading-relaxed font-medium">
+                Subjecting ourselves to mediocrity, chasing digital validation, and mistakenly believing there is no longer value in deep craft and excellence.
+              </p>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-4 mt-4">
-              <span className="text-sm font-mono font-bold uppercase tracking-wider text-[#0A1128]/70">
-                The constraint isn't your intellect—it's your distribution.
+            <div className="mt-3 pt-2 border-t border-[#0A1128]/15">
+              <span className="text-xs font-mono font-bold text-red-600 uppercase">
+                Diagnosis: The trap of performative noise over tangible creation.
               </span>
             </div>
           </Card>
 
-          <Card className="col-span-6 p-8 flex flex-col justify-between" tone="soft">
+          <Card className="col-span-6 p-6 flex flex-col justify-between" tone="paper">
             <div>
-              <div className="flex items-center gap-3">
-                <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] p-2 text-white">
-                  <Globe className="h-7 w-7 text-white" />
+              <div className="flex items-center justify-between pb-2 border-b-2 border-[#0A1128]/20">
+                <span className="font-mono text-xs font-extrabold uppercase tracking-widest text-[#0052FF]">
+                  02 · The Systemic Reality
                 </span>
-                <h3 className="font-display text-3xl font-extrabold text-[#0052FF]">
-                  The Borderless Imperative
-                </h3>
+                <span className="font-display font-extrabold text-sm text-[#0A1128]">
+                  Atedo Peterside (Stanbic IBTC)
+                </span>
               </div>
-              <ul className="mt-6 space-y-4">
-                <Bullet tone="blue">
-                  <strong className="text-[#0A1128]">The Frictionless Market:</strong> Code, writing, design, research, and strategy can be delivered anywhere on Earth in milliseconds.
-                </Bullet>
-                <Bullet tone="blue">
-                  <strong className="text-[#0A1128]">Global Capital Meets Local Grit:</strong> International organizations, startups, and fellowships are actively looking for operators who understand high-friction environments.
-                </Bullet>
-                <Bullet tone="blue">
-                  <strong className="text-[#0A1128]">Asymmetric Leverage:</strong> One global fellowship, remote role, or international grant can fundamentally alter your family’s generational trajectory.
-                </Bullet>
-              </ul>
+              <p className="font-display text-2xl font-extrabold text-[#0A1128] mt-4 leading-snug">
+                "The current governance system actively stifles youth growth."
+              </p>
+              <p className="text-base text-[#0A1128]/85 mt-2.5 leading-relaxed font-medium">
+                The older generation who control governance and institutions have closed the ladder, failing to provide the enabling environment they enjoyed decades ago.
+              </p>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-4 mt-4">
-              <span className="text-sm font-mono font-bold uppercase tracking-wider text-[#0052FF]">
-                "Global positioning is not vanity—it is economic defense."
+            <div className="mt-3 pt-2 border-t border-[#0A1128]/15">
+              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
+                Diagnosis: The structural ceiling that forces us to look beyond borders.
               </span>
             </div>
           </Card>
+        </div>
+
+        {/* Bottom: Avenues for Corrective Action */}
+        <div className="p-5 bg-white border-[3.5px] border-[#0A1128] shadow-[8px_8px_0_0_#0052FF]">
+          <div className="flex items-center justify-between mb-3 pb-2 border-b-2 border-[#0A1128]/20">
+            <span className="font-mono text-xs font-bold uppercase tracking-wider text-[#0052FF]">
+              The Critique Is Not Condemnatory — It Is A Blueprint For Transition
+            </span>
+            <span className="text-xs font-mono font-bold text-[#0A1128]/70 uppercase">
+              3 Levers For The Younger Generation
+            </span>
+          </div>
+
+          <div className="grid grid-cols-3 gap-5">
+            <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0A1128]">
+              <span className="font-mono text-xs font-extrabold text-[#0052FF] block mb-1">
+                01. EXPRESSION → INTROSPECTION
+              </span>
+              <p className="text-sm font-semibold text-[#0A1128] leading-snug">
+                Moving past superficial anger and complaining on social media toward deep introspection, structural planning, and securing local systems.
+              </p>
+            </div>
+
+            <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0A1128]">
+              <span className="font-mono text-xs font-extrabold text-[#0052FF] block mb-1">
+                02. COALITION OF THE WILLING
+              </span>
+              <p className="text-sm font-semibold text-[#0A1128] leading-snug">
+                Abandoning performative rooms and youth confabs in favor of working directly with trusted peers to build hard infrastructure and economic value.
+              </p>
+            </div>
+
+            <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0A1128]">
+              <span className="font-mono text-xs font-extrabold text-[#0052FF] block mb-1">
+                03. TAKING OWNERSHIP
+              </span>
+              <p className="text-sm font-semibold text-[#0A1128] leading-snug">
+                Accepting that older leadership will pass down broken systems—making it our imperative duty to construct functional institutions and long-term assets.
+              </p>
+            </div>
+          </div>
         </div>
       </SlideLayout>
     ),
