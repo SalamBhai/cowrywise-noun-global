@@ -981,67 +981,80 @@ export const slides: SlideDef[] = [
         </div>
 
         <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          <Card className="col-span-5 p-8 flex flex-col justify-between">
-            <div>
-              <div className="flex items-center gap-3">
-                <span className="p-2 bg-red-100 border-2 border-red-500 text-red-600 font-bold text-xs">
-                  AVOID
-                </span>
-                <h4 className="font-display text-2xl font-bold text-[#0A1128]">
-                  The "Entitlement" Cold DM
-                </h4>
+          <Card className="col-span-5 p-8 flex flex-col justify-between" tone="paper">
+            <div className="flex-1 flex flex-col justify-between">
+              <div>
+                <div className="flex items-center gap-3">
+                  <span className="p-2 bg-red-100 border-2 border-red-500 text-red-600 font-black text-xs font-mono">
+                    AVOID
+                  </span>
+                  <h4 className="font-display text-2xl font-black text-[#0A1128]">
+                    The "Entitlement" Cold DM
+                  </h4>
+                </div>
+                <div className="mt-5 p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] font-mono text-sm leading-relaxed text-[#0A1128]">
+                  "Hello Sir/Ma, I just graduated and I am looking for a global remote job or mentor. Please connect me or help my career. God bless you."
+                </div>
+                <ul className="mt-5 space-y-3 text-sm font-semibold text-[#0A1128]/90">
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold">•</span>
+                    Puts 100% of the cognitive burden on the recipient.
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold">•</span>
+                    Gives zero proof or reason why anyone should invest their time in you.
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold">•</span>
+                    Almost guaranteed to be left on "Read".
+                  </li>
+                </ul>
               </div>
-              <div className="mt-5 p-4 bg-[#FAF7EE] border-2 border-[#0A1128]/30 rounded font-mono text-sm leading-relaxed text-[#0A1128]/80">
-                "Hello Sir/Ma, I just graduated and I am looking for a global remote job or mentor. Please connect me or help my career. God bless you."
-              </div>
-              <ul className="mt-5 space-y-2 text-sm text-[#0A1128]/80">
-                <li>• Puts 100% of the cognitive burden on the recipient.</li>
-                <li>• Gives zero reason why anyone should spend time on you.</li>
-                <li>• Almost guaranteed to be left on "Read".</li>
-              </ul>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-red-600 uppercase">Result: 0% Response Rate</span>
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-4 shrink-0">
+              <span className="text-xs font-mono font-black text-red-600 uppercase">Result: 0% Response Rate</span>
             </div>
           </Card>
 
           <Card className="col-span-7 p-8 flex flex-col justify-between" tone="soft">
-            <div>
-              <div className="flex items-center justify-between">
-                <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] text-white px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider">
-                  HIGH-LEVERAGE FORMULA
-                </span>
-                <Users className="h-7 w-7 text-[#0052FF]" />
+            <div className="flex-1 flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between pb-2 border-b-2 border-[#0A1128]/20">
+                  <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] text-white px-3.5 py-1 font-mono text-xs font-black uppercase tracking-wider">
+                    High-Leverage Formula
+                  </span>
+                  <Users className="h-7 w-7 text-[#0052FF]" />
+                </div>
+                <h4 className="font-display text-2xl font-black text-[#0052FF] mt-3">
+                  The Value-First Protocol
+                </h4>
               </div>
-              <h4 className="font-display text-2xl font-bold text-[#0052FF] mt-4">
-                The Value-First Protocol
-              </h4>
 
-              <div className="mt-4 space-y-3">
-                <div className="p-3.5 bg-white border-2 border-[#0A1128] rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">1. Deep Contextual Homework:</p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5">
+              <div className="flex-1 flex flex-col justify-between gap-3 my-3">
+                <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                  <p className="font-display text-base font-black text-[#0052FF]">1. Deep Contextual Homework:</p>
+                  <p className="text-sm font-semibold text-[#0A1128]/90 mt-1 leading-relaxed">
                     Read their recent blog, listen to their podcast, or inspect their GitHub project before you type a single word.
                   </p>
                 </div>
 
-                <div className="p-3.5 bg-white border-2 border-[#0A1128] rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">2. Proactive Contribution:</p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5">
+                <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                  <p className="font-display text-base font-black text-[#0052FF]">2. Proactive Contribution:</p>
+                  <p className="text-sm font-semibold text-[#0A1128]/90 mt-1 leading-relaxed">
                     "I noticed a small bug in your documentation and submitted a PR," or "I loved your essay on fintech and visualized it in this infographic."
                   </p>
                 </div>
 
-                <div className="p-3.5 bg-white border-2 border-[#0A1128] rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">3. Low-Friction Asymmetry:</p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5">
+                <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                  <p className="font-display text-base font-black text-[#0052FF]">3. Low-Friction Asymmetry:</p>
+                  <p className="text-sm font-semibold text-[#0A1128]/90 mt-1 leading-relaxed">
                     Never ask "can we hop on a 30-min call?". Ask one ultra-specific, high-clarity question they can answer in 2 sentences.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 shrink-0">
+              <span className="text-xs font-mono font-black text-[#0052FF] uppercase">
                 "Be so useful that ignoring you feels like a loss to them."
               </span>
             </div>
@@ -1083,30 +1096,30 @@ export const slides: SlideDef[] = [
                 </h3>
               </div>
 
-              <div className="space-y-3">
-                <div className="p-3 bg-[#FAF7EE] border border-[#0A1128]/20">
-                  <p className="font-bold text-sm text-[#0A1128]">
+              <div className="flex-1 flex flex-col justify-between gap-3.5 mt-3">
+                <div className="p-4 bg-[#FAF7EE] border-2 border-[#0A1128]/30 flex-1 flex flex-col justify-center">
+                  <p className="font-display text-base font-black text-[#0A1128]">
                     1. You Only See Their Celebrations
                   </p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5 leading-relaxed font-semibold">
+                  <p className="text-sm text-[#0A1128]/90 mt-1 leading-relaxed font-semibold">
                     People post their big wins and congratulations, but they never post the 100 rejection emails or quiet struggles they had to endure before that moment.
                   </p>
                 </div>
 
-                <div className="p-3 bg-[#FAF7EE] border border-[#0A1128]/20">
-                  <p className="font-bold text-sm text-[#0A1128]">
+                <div className="p-4 bg-[#FAF7EE] border-2 border-[#0A1128]/30 flex-1 flex flex-col justify-center">
+                  <p className="font-display text-base font-black text-[#0A1128]">
                     2. Everyone Starts from a Different Place
                   </p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5 leading-relaxed font-semibold">
+                  <p className="text-sm text-[#0A1128]/90 mt-1 leading-relaxed font-semibold">
                     Some people have family connections, early financial safety nets, or head starts. Comparing your exact timeline to theirs will only steal your peace of mind.
                   </p>
                 </div>
 
-                <div className="p-3 bg-[#FAF7EE] border border-[#0A1128]/20">
-                  <p className="font-bold text-sm text-[#0A1128]">
+                <div className="p-4 bg-[#FAF7EE] border-2 border-[#0A1128]/30 flex-1 flex flex-col justify-center">
+                  <p className="font-display text-base font-black text-[#0A1128]">
                     3. Envy Paralyzes Your Energy
                   </p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5 leading-relaxed font-semibold">
+                  <p className="text-sm text-[#0A1128]/90 mt-1 leading-relaxed font-semibold">
                     Spending hours feeling discouraged by other people's posts leaves you with zero motivation to practice your own craft or apply for your own opportunities.
                   </p>
                 </div>
@@ -1131,30 +1144,30 @@ export const slides: SlideDef[] = [
                 </h3>
               </div>
 
-              <div className="space-y-3">
-                <div className="p-3.5 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+              <div className="flex-1 flex flex-col justify-between gap-3.5 mt-3">
+                <div className="p-4 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
                   <h4 className="font-display text-base font-black text-[#0052FF]">
                     Are You Better Than You Were 6 Months Ago?
                   </h4>
-                  <p className="text-xs font-bold text-[#0A1128]/90 mt-1 leading-relaxed">
+                  <p className="text-sm font-semibold text-[#0A1128]/90 mt-1 leading-relaxed">
                     Don't worry about how far ahead someone else seems. Ask yourself: Can you handle problems, build things, or communicate ideas today that used to confuse or scare you last year? That is genuine growth.
                   </p>
                 </div>
 
-                <div className="p-3.5 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                <div className="p-4 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
                   <h4 className="font-display text-base font-black text-[#0052FF]">
                     Focus on What You Can Control Today
                   </h4>
-                  <p className="text-xs font-bold text-[#0A1128]/90 mt-1 leading-relaxed">
+                  <p className="text-sm font-semibold text-[#0A1128]/90 mt-1 leading-relaxed">
                     You cannot force a company to hire you or award you a grant today. But you CAN control whether you practiced for an hour, read a chapter, or submitted an application today.
                   </p>
                 </div>
 
-                <div className="p-3.5 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                <div className="p-4 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
                   <h4 className="font-display text-base font-black text-[#0052FF]">
                     Turn Other People's Wins into Inspiration
                   </h4>
-                  <p className="text-xs font-bold text-[#0A1128]/90 mt-1 leading-relaxed">
+                  <p className="text-sm font-semibold text-[#0A1128]/90 mt-1 leading-relaxed">
                     When a peer from your school or community wins, celebrate them. It is proof that someone from your environment can break through. Ask questions and learn from their steps.
                   </p>
                 </div>
