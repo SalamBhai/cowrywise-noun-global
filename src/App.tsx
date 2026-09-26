@@ -257,8 +257,8 @@ export function App() {
       ) : (
         <div className="flex min-h-0 flex-1 flex-col">
           {/* Slide stage */}
-          <div className="min-h-0 flex-1 md:p-6 p-2 flex items-center justify-center">
-            <div className="mx-auto h-full w-full max-w-[1600px] md:border-[4px] border border-[#0A1128] bg-white md:shadow-[12px_12px_0_0_#0A1128] shadow-none overflow-hidden">
+          <div className="min-h-0 flex-1 p-2 md:p-3 flex items-center justify-center overflow-hidden">
+            <div className="relative aspect-[16/9] w-full max-w-[1920px] max-h-full border-[4px] border-[#0A1128] bg-[#0A1128] shadow-[10px_10px_0_0_#0A1128] overflow-hidden flex items-center justify-center">
               <ScaledSlide>{slides[current].render({ index: current, total })}</ScaledSlide>
             </div>
           </div>

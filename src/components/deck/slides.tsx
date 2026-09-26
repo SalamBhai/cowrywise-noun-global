@@ -1056,81 +1056,114 @@ export const slides: SlideDef[] = [
      ========================================================================== */
   {
     id: "theory-of-comparison",
-    title: "Self-Assessment and Evaluation: The Theory of Comparison",
+    title: "Self-Assessment & Growth: Stop Comparing, Start Building",
     notes:
-      "MENTAL HEALTH & RESILIENCE: One of the biggest killers of young talent in Nigeria is social media despair. You log onto LinkedIn or X and see a 20-year-old claiming they got a $100k remote role and just bought a car. You feel paralyzed. Address 'The Theory of Comparison': You are comparing your unedited backstage footage with someone else's curated highlight reel. Benchmark yourself ONLY against your 6-month-ago self: Are you writing cleaner code? Are you articulating your ideas better? Are you more disciplined?",
+      "MENTAL HEALTH & RESILIENCE: One of the biggest killers of young talent in Nigeria is social media despair. You log onto LinkedIn or X and see someone claiming they got a huge role. You feel paralyzed. Clarify: You are comparing your hard work behind the scenes to someone else's public celebration. Benchmark yourself ONLY against who you were 6 months ago: Are you learning faster? Are you communicating better? Are you more disciplined?",
     render: ({ index, total }) => (
-      <SlideLayout index={index} total={total} label="09: Psychology & Benchmarking">
+      <SlideLayout index={index} total={total} label="09: Self-Assessment & Growth">
         <div>
           <h2 className="slide-title">
-            Self-Assessment &amp; Evaluation:
-            <span className="text-[#0052FF] ml-3">The Theory of Comparison</span>
+            Self-Assessment &amp; Growth:
+            <span className="text-[#0052FF] ml-3">Stop Comparing, Start Building</span>
           </h2>
           <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            Comparison is either the fuel of bitter paralysis or the compass of self-calibration.
+            Comparing yourself to others will only make you bitter or discouraged. The only comparison that matters is you vs. who you were yesterday.
           </p>
         </div>
 
         <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          <Card className="col-span-6 p-8 flex flex-col justify-between" tone="paper">
-            <div>
-              <span className="brut-flat border-[3px] border-[#0A1128] bg-red-100 text-red-700 px-3 py-1 font-mono text-xs font-bold uppercase">
-                Toxic Comparison (Social Media FOMO)
-              </span>
-              <h3 className="font-display text-3xl font-extrabold text-[#0A1128] mt-4">
-                Comparing Your Backstage to Their Stage
-              </h3>
-              <ul className="mt-5 space-y-4">
-                <Bullet tone="dark">
-                  <strong>The Highlight Reel Illusion:</strong> You see someone’s "I am thrilled to announce..." post, but you didn't see their 240 silent rejection emails.
-                </Bullet>
-                <Bullet tone="dark">
-                  <strong>Different Starting Lines:</strong> Some peers have generational safety nets, foreign laptops, or family connections. Comparing raw timelines is mathematically irrational.
-                </Bullet>
-                <Bullet tone="dark">
-                  <strong>The Paralysis Cycle:</strong> Comparison breeds cynicism, imposter syndrome, and eventually quitting before compounding kicks in.
-                </Bullet>
-              </ul>
-            </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0A1128]/70 uppercase">
-                Trap: Running someone else's race with your own stamina.
-              </span>
-            </div>
-          </Card>
+          <Card className="col-span-6 p-7 flex flex-col justify-between" tone="paper">
+            <div className="flex-1 flex flex-col justify-between gap-4">
+              <div>
+                <span className="brut-flat border-[3px] border-[#0A1128] bg-red-100 text-red-700 px-3 py-1 font-mono text-xs font-black uppercase">
+                  The Social Media Trap
+                </span>
+                <h3 className="font-display text-2xl font-extrabold text-[#0A1128] mt-3">
+                  Don't Compare Your Hard Work Behind the Scenes to Their Highlight Reel
+                </h3>
+              </div>
 
-          <Card className="col-span-6 p-8 flex flex-col justify-between" tone="blue">
-            <div>
-              <span className="brut-flat border-[3px] border-white bg-white text-[#0052FF] px-3 py-1 font-mono text-xs font-bold uppercase shadow-[3px_3px_0_0_#000]">
-                Calibrated Self-Assessment (The Long Game)
-              </span>
-              <h3 className="font-display text-3xl font-extrabold text-white mt-4">
-                The Internal Retrospective
-              </h3>
-
-              <div className="mt-6 space-y-4">
-                <div className="p-4 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
-                  <h4 className="font-display text-lg font-bold text-[#0052FF]">
-                    Measure Velocity, Not Altitude
-                  </h4>
-                  <p className="text-sm mt-1">
-                    Are you learning faster today than you were 6 months ago? Can you ship something now that used to intimidate you last year?
+              <div className="space-y-3">
+                <div className="p-3 bg-[#FAF7EE] border border-[#0A1128]/20">
+                  <p className="font-bold text-sm text-[#0A1128]">
+                    1. You Only See Their Celebrations
+                  </p>
+                  <p className="text-xs text-[#0A1128]/80 mt-0.5 leading-relaxed font-semibold">
+                    People post their big wins and congratulations, but they never post the 100 rejection emails or quiet struggles they had to endure before that moment.
                   </p>
                 </div>
 
-                <div className="p-4 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
-                  <h4 className="font-display text-lg font-bold text-[#0052FF]">
-                    Audit Your Inputs Daily
-                  </h4>
-                  <p className="text-sm mt-1">
-                    You cannot control whether an employer hires you today. You CAN control whether you committed code, read 20 pages, or wrote an application.
+                <div className="p-3 bg-[#FAF7EE] border border-[#0A1128]/20">
+                  <p className="font-bold text-sm text-[#0A1128]">
+                    2. Everyone Starts from a Different Place
+                  </p>
+                  <p className="text-xs text-[#0A1128]/80 mt-0.5 leading-relaxed font-semibold">
+                    Some people have family connections, early financial safety nets, or head starts. Comparing your exact timeline to theirs will only steal your peace of mind.
+                  </p>
+                </div>
+
+                <div className="p-3 bg-[#FAF7EE] border border-[#0A1128]/20">
+                  <p className="font-bold text-sm text-[#0A1128]">
+                    3. Envy Paralyzes Your Energy
+                  </p>
+                  <p className="text-xs text-[#0A1128]/80 mt-0.5 leading-relaxed font-semibold">
+                    Spending hours feeling discouraged by other people's posts leaves you with zero motivation to practice your own craft or apply for your own opportunities.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="border-t border-white/30 pt-3">
-              <span className="text-xs font-mono font-bold uppercase text-white">
-                "Benchmark yourself against your yesterday, never against someone else’s highlight reel."
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-black text-red-600 uppercase">
+                TRAP: RUNNING SOMEONE ELSE'S RACE WITH YOUR OWN STAMINA. STAY IN YOUR LANE.
+              </span>
+            </div>
+          </Card>
+
+          <Card className="col-span-6 p-7 flex flex-col justify-between" tone="blue">
+            <div className="flex-1 flex flex-col justify-between gap-4">
+              <div>
+                <span className="brut-flat border-[3px] border-white bg-white text-[#0052FF] px-3.5 py-1 font-mono text-xs font-black uppercase shadow-[3px_3px_0_0_#000]">
+                  The Only Test That Matters
+                </span>
+                <h3 className="font-display text-2xl font-extrabold text-white mt-3">
+                  How to Measure Real Personal Progress
+                </h3>
+              </div>
+
+              <div className="space-y-3">
+                <div className="p-3.5 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                  <h4 className="font-display text-base font-black text-[#0052FF]">
+                    Are You Better Than You Were 6 Months Ago?
+                  </h4>
+                  <p className="text-xs font-bold text-[#0A1128]/90 mt-1 leading-relaxed">
+                    Don't worry about how far ahead someone else seems. Ask yourself: Can you handle problems, build things, or communicate ideas today that used to confuse or scare you last year? That is genuine growth.
+                  </p>
+                </div>
+
+                <div className="p-3.5 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                  <h4 className="font-display text-base font-black text-[#0052FF]">
+                    Focus on What You Can Control Today
+                  </h4>
+                  <p className="text-xs font-bold text-[#0A1128]/90 mt-1 leading-relaxed">
+                    You cannot force a company to hire you or award you a grant today. But you CAN control whether you practiced for an hour, read a chapter, or submitted an application today.
+                  </p>
+                </div>
+
+                <div className="p-3.5 bg-white text-[#0A1128] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                  <h4 className="font-display text-base font-black text-[#0052FF]">
+                    Turn Other People's Wins into Inspiration
+                  </h4>
+                  <p className="text-xs font-bold text-[#0A1128]/90 mt-1 leading-relaxed">
+                    When a peer from your school or community wins, celebrate them. It is proof that someone from your environment can break through. Ask questions and learn from their steps.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="border-t border-white/30 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-black uppercase text-white tracking-wider">
+                BENCHMARK YOURSELF AGAINST YOUR YESTERDAY, NEVER AGAINST SOMEONE ELSE'S SOCIAL MEDIA FEED.
               </span>
             </div>
           </Card>
@@ -1144,88 +1177,106 @@ export const slides: SlideDef[] = [
      ========================================================================== */
   {
     id: "consistency-communities-mentors",
-    title: "Consistency & Staying Involved: Communities and Mentorship",
+    title: "Communities & Mentorship: Why You Cannot Walk Alone",
     notes:
-      "COMMUNITY POWER: Emphasize that nobody makes it alone in global tech or global fellowships. Lone wolves die of isolation. Why communities like Cowrywise Ambassadors, GDG, SheCodeAfrica, OSCA matter: They compress time. You learn about opportunities weeks before they appear on LinkedIn. How to find mentors: Do not ask 'will you mentor me?'. Ask targeted questions, implement their feedback, and report back. The best mentees are execution engines.",
+      "COMMUNITY POWER: Emphasize that nobody makes it alone in global opportunities. Why communities matter: They share opportunities weeks before they appear on LinkedIn. How to find mentors: Do not ask 'will you mentor me?'. Ask targeted questions, implement their feedback immediately, and report back with results.",
     render: ({ index, total }) => (
       <SlideLayout index={index} total={total} label="10: Staying in the Arena">
         <div>
           <h2 className="slide-title">
-            Staying in the Arena:
-            <span className="text-[#0052FF] ml-3">Communities &amp; Mentorship</span>
+            Communities &amp; Mentorship:
+            <span className="text-[#0052FF] ml-3">Why You Cannot Walk Alone</span>
           </h2>
           <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            Talent is everywhere, but opportunity clusters in active, high-trust communities.
+            Nobody succeeds in isolation. The people around you determine how far and how fast you will go.
           </p>
         </div>
 
         <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          <Card className="col-span-6 p-8 flex flex-col justify-between">
-            <div>
-              <div className="flex items-center gap-3">
-                <span className="p-2 bg-[#EBF2FF] border-2 border-[#0A1128]">
-                  <Users className="h-7 w-7 text-[#0052FF]" />
+          <Card className="col-span-6 p-7 flex flex-col justify-between" tone="paper">
+            <div className="flex-1 flex flex-col justify-between gap-3.5">
+              <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20 shrink-0">
+                <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] text-white px-3.5 py-1 font-mono text-xs font-black uppercase tracking-wider">
+                  Community Is Your Leverage
                 </span>
-                <h3 className="font-display text-3xl font-extrabold text-[#0A1128]">
-                  Why You Cannot Be a Lone Wolf
-                </h3>
+                <Users className="h-6 w-6 text-[#0052FF]" />
               </div>
-              <ul className="mt-6 space-y-4">
-                <Bullet>
-                  <strong className="text-[#0052FF]">Information Asymmetry:</strong> The best opportunities (grants, seed funding, unpublished roles) circulate inside private communities long before public job boards.
-                </Bullet>
-                <Bullet>
-                  <strong className="text-[#0052FF]">Accountability &amp; Momentum:</strong> When your peers in Cowrywise or developer circles are shipping, it forces your own standards to elevate.
-                </Bullet>
-                <Bullet>
-                  <strong className="text-[#0052FF]">Peer Referrals:</strong> Your fellow students and ambassadors today will be tomorrow’s engineering managers, founders, and directors globally.
-                </Bullet>
-              </ul>
+
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <h4 className="font-display text-base font-black text-[#0052FF]">
+                  1. You Hear About Opportunities First
+                </h4>
+                <p className="text-sm font-semibold text-[#0A1128] mt-1.5 leading-relaxed">
+                  The best internships, scholarships, and private grants are shared inside trusted student and builder circles long before they ever reach public job boards.
+                </p>
+              </div>
+
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <h4 className="font-display text-base font-black text-[#0052FF]">
+                  2. Active Peers Push You to Build
+                </h4>
+                <p className="text-sm font-semibold text-[#0A1128] mt-1.5 leading-relaxed">
+                  When you surround yourself with fellow students who are actively applying, learning, and shipping projects, their momentum naturally destroys your excuses.
+                </p>
+              </div>
+
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <h4 className="font-display text-base font-black text-[#0052FF]">
+                  3. Your Classmates Today Are Tomorrow's Decision Makers
+                </h4>
+                <p className="text-sm font-semibold text-[#0A1128] mt-1.5 leading-relaxed">
+                  The student beside you or your fellow Cowrywise Ambassador will be a team lead, founder, or director tomorrow. Build genuine relationships and trust now.
+                </p>
+              </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
-                "Show me your community, and I will show you your 3-year trajectory."
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-black text-[#0052FF] uppercase">
+                "SHOW ME WHO YOU SPEND TIME TALKING TO, AND I WILL SHOW YOU YOUR NEXT 3 YEARS."
               </span>
             </div>
           </Card>
 
-          <Card className="col-span-6 p-8 flex flex-col justify-between" tone="soft">
-            <div>
-              <div className="flex items-center gap-3">
-                <span className="p-2 bg-[#0052FF] border-2 border-[#0A1128] text-white">
-                  <Flame className="h-7 w-7 text-white" />
+          <Card className="col-span-6 p-7 flex flex-col justify-between" tone="soft">
+            <div className="flex-1 flex flex-col justify-between gap-3.5">
+              <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20 shrink-0">
+                <span className="brut-flat border-[3px] border-[#0A1128] bg-white text-[#0052FF] px-3.5 py-1 font-mono text-xs font-black uppercase tracking-wider">
+                  How Mentorship Actually Works
                 </span>
-                <h3 className="font-display text-3xl font-extrabold text-[#0052FF]">
-                  The Reverse Mentorship Formula
-                </h3>
+                <Flame className="h-6 w-6 text-[#0052FF]" />
               </div>
 
-              <div className="mt-5 space-y-3">
-                <div className="p-3.5 bg-white border-2 border-[#0A1128] rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">Step 1: Never Ask for "Mentorship"</p>
-                  <p className="text-xs text-[#0A1128]/80 mt-1">
-                    Busy leaders decline generic "mentorship" requests. Instead, ask for 5 minutes of tactical guidance on one specific hurdle.
-                  </p>
-                </div>
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <h4 className="font-display text-base font-black text-[#0052FF]">
+                  Step 1: Never Send Vague "Be My Mentor" DMs
+                </h4>
+                <p className="text-sm font-semibold text-[#0A1128] mt-1.5 leading-relaxed">
+                  Busy leaders ignore generic "mentor me" messages. Instead, ask for 5 minutes of direct guidance on one specific problem you are currently solving.
+                </p>
+              </div>
 
-                <div className="p-3.5 bg-white border-2 border-[#0A1128] rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">Step 2: Execute Immediately</p>
-                  <p className="text-xs text-[#0A1128]/80 mt-1">
-                    Take the advice. Build the thing. Send the application. Read the recommended book. Don't procrastinate.
-                  </p>
-                </div>
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <h4 className="font-display text-base font-black text-[#0052FF]">
+                  Step 2: Act on Their Advice Immediately
+                </h4>
+                <p className="text-sm font-semibold text-[#0A1128] mt-1.5 leading-relaxed">
+                  Don't just say thank you. Go build the thing, read the recommended book, or submit the application. Prove that their time was not wasted on you.
+                </p>
+              </div>
 
-                <div className="p-3.5 bg-white border-2 border-[#0A1128] rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">Step 3: Close the Loop with Proof</p>
-                  <p className="text-xs text-[#0A1128]/80 mt-1">
-                    Message them back: "I implemented your advice, and here is the result." Congratulations—you now have a lifelong champion and mentor.
-                  </p>
-                </div>
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <h4 className="font-display text-base font-black text-[#0052FF]">
+                  Step 3: Close the Loop with Proof
+                </h4>
+                <p className="text-sm font-semibold text-[#0A1128] mt-1.5 leading-relaxed">
+                  Message them back: "I implemented your advice on X, and here is the result." That single message turns a busy stranger into a lifelong supporter.
+                </p>
               </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">
-                "Mentors don't adopt people who need advice; they invest in execution machines."
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-black text-[#0A1128] uppercase">
+                MENTORS DON'T ADOPT PEOPLE WHO ONLY WANT TALK; THEY INVEST IN PEOPLE WHO SHOW RESULTS.
               </span>
             </div>
           </Card>
@@ -1241,7 +1292,7 @@ export const slides: SlideDef[] = [
     id: "action-plan-ecosystem",
     title: "The Action Plan: People to Follow and Platforms to Join",
     notes:
-      "PRACTICAL TOOLKIT: Give them concrete names and websites they can bookmark tonight. Divide into: 1. Voices to follow (Builders, founders, impact leaders). 2. Academic & Opportunity platforms (Opportunity Desk, Opportunities for Africans, Chevening, Erasmus Mundus). 3. Social impact & tech hubs (Cowrywise campus community, ALX, OSCA, GDG). Tell them: 'Your Twitter/X feed and LinkedIn feed are your cognitive diet. Unfollow gossip; follow builders.'",
+      "PRACTICAL TOOLKIT: Concrete names and platforms to follow tonight. Curate your digital diet. Surround yourself with people of substance and proven platforms.",
     render: ({ index, total }) => (
       <SlideLayout index={index} total={total} label="11: Concrete Action Plan">
         <div>
@@ -1257,7 +1308,7 @@ export const slides: SlideDef[] = [
         <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
           {/* People to Learn From */}
           <Card className="col-span-6 p-7 flex flex-col justify-between" tone="paper">
-            <div className="flex-1 flex flex-col justify-between gap-4">
+            <div className="flex-1 flex flex-col justify-between gap-3">
               <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20 shrink-0">
                 <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] text-white px-3.5 py-1 font-mono text-xs font-black uppercase tracking-wider">
                   People of Substance &amp; Voices to Study
@@ -1266,43 +1317,37 @@ export const slides: SlideDef[] = [
               </div>
 
               {/* Youth Realities & Changemakers */}
-              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
-                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-2">
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-between">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-2 shrink-0">
                   Youth Realities &amp; Changemakers to Follow:
                 </p>
-                <div className="grid grid-cols-2 gap-2 text-xs font-bold text-[#0A1128]">
-                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
-                    <span className="text-[#0052FF]">Bukola Aladesulu</span>
-                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Youth Development</span>
+                <div className="grid grid-cols-2 gap-2.5 flex-1">
+                  <div className="p-2.5 bg-[#FAF7EE] border border-[#0A1128]/30 flex flex-col justify-center">
+                    <span className="text-sm font-black text-[#0A1128]">Bukola Aladesulu</span>
+                    <span className="text-xs font-bold text-[#0052FF]">Youth Development</span>
                   </div>
-                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
-                    <span className="text-[#0052FF]">Temiloluwa Bolawole</span>
-                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Poetry &amp; Diplomacy</span>
+                  <div className="p-2.5 bg-[#FAF7EE] border border-[#0A1128]/30 flex flex-col justify-center">
+                    <span className="text-sm font-black text-[#0A1128]">Temiloluwa Bolawole</span>
+                    <span className="text-xs font-bold text-[#0052FF]">Poetry &amp; Diplomacy</span>
                   </div>
-                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
-                    <span className="text-[#0052FF]">Rafiat Atanda</span>
-                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Underserved Communities</span>
+                  <div className="p-2.5 bg-[#FAF7EE] border border-[#0A1128]/30 flex flex-col justify-center">
+                    <span className="text-sm font-black text-[#0A1128]">Rafiat Atanda</span>
+                    <span className="text-xs font-bold text-[#0052FF]">Underserved Communities</span>
                   </div>
-                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
-                    <span className="text-[#0052FF]">Lasisi Godwin</span>
-                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Public Health</span>
+                  <div className="p-2.5 bg-[#FAF7EE] border border-[#0A1128]/30 flex flex-col justify-center">
+                    <span className="text-sm font-black text-[#0A1128]">Lasisi Godwin</span>
+                    <span className="text-xs font-bold text-[#0052FF]">Public Health</span>
                   </div>
-                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
-                    <span className="text-[#0052FF]">Saviour Iwezue</span>
-                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Climate Action</span>
+                  <div className="p-2.5 bg-[#FAF7EE] border border-[#0A1128]/30 flex flex-col justify-center">
+                    <span className="text-sm font-black text-[#0A1128]">Saviour Iwezue &amp; Munnir Adams</span>
+                    <span className="text-xs font-bold text-[#0052FF]">Climate Action</span>
                   </div>
-                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
-                    <span className="text-[#0052FF]">Munnir Adams</span>
-                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Climate Action</span>
-                  </div>
-                  <div className="col-span-2 p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20 flex items-center justify-between">
-                    <div>
-                      <span className="text-[#0052FF]">Stanley Anigbogu</span>
-                      <span className="text-[11px] text-[#0A1128]/75 font-semibold ml-2">Hardware Engineering</span>
-                    </div>
+                  <div className="p-2.5 bg-[#FAF7EE] border border-[#0A1128]/30 flex flex-col justify-center">
+                    <span className="text-sm font-black text-[#0A1128]">Stanley Anigbogu</span>
+                    <span className="text-xs font-bold text-[#0052FF]">Hardware Engineering</span>
                   </div>
                 </div>
-                <div className="mt-2.5 pt-2 border-t border-[#0A1128]/15 text-center">
+                <div className="mt-2.5 pt-2 border-t border-[#0A1128]/15 text-center shrink-0">
                   <span className="font-mono text-xs font-black text-[#0052FF] italic">
                     "and many other people I follow"
                   </span>
@@ -1310,15 +1355,15 @@ export const slides: SlideDef[] = [
               </div>
 
               {/* Scholarship & Academic Champions */}
-              <div className="p-4 bg-white border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF]">
-                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1.5">
+              <div className="p-4 bg-white border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF] shrink-0">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1">
                   Scholarship &amp; Academic Champions:
                 </p>
-                <p className="text-sm font-bold text-[#0A1128] leading-snug">
-                  <strong>Dr. Dipo Awojide</strong> · <strong>Scholarship Region</strong>
+                <p className="text-base font-black text-[#0A1128] leading-snug">
+                  Dr. Dipo Awojide · Scholarship Region
                 </p>
-                <p className="text-xs text-[#0A1128]/85 font-semibold mt-1 leading-normal">
-                  Past alumni &amp; scholar networks of <strong>Erasmus Mundus</strong>, <strong>Mastercard Foundation</strong>, and <strong>Chevening</strong>.
+                <p className="text-xs text-[#0A1128]/85 font-bold mt-1 leading-normal">
+                  Past alumni &amp; scholar networks of <strong className="text-[#0052FF]">Erasmus Mundus</strong>, <strong className="text-[#0052FF]">Mastercard Foundation</strong>, and <strong className="text-[#0052FF]">Chevening</strong>.
                 </p>
               </div>
             </div>
@@ -1332,7 +1377,7 @@ export const slides: SlideDef[] = [
 
           {/* Platforms to Join */}
           <Card className="col-span-6 p-7 flex flex-col justify-between" tone="soft">
-            <div className="flex-1 flex flex-col justify-between gap-4">
+            <div className="flex-1 flex flex-col justify-between gap-3">
               <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20 shrink-0">
                 <span className="brut-flat border-[3px] border-[#0A1128] bg-white text-[#0052FF] px-3.5 py-1 font-mono text-xs font-black uppercase tracking-wider">
                   Ecosystems &amp; Proven Platforms
@@ -1341,39 +1386,39 @@ export const slides: SlideDef[] = [
               </div>
 
               {/* High-Impact Fellowships & Leadership */}
-              <div className="p-3.5 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
-                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1">
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1.5">
                   High-Impact Fellowships &amp; Leadership Programs:
                 </p>
-                <ul className="text-xs font-bold text-[#0A1128] space-y-1 mt-1">
-                  <li>• <strong>Millennium Campus Network (MCN)</strong> (UN Academic Impact Fellowship)</li>
-                  <li>• <strong>The Bridge Program</strong> (Premier leadership &amp; professional development)</li>
-                  <li>• <strong>LEAP Africa Programs et al</strong> (Youth leadership, social enterprise &amp; civic innovation)</li>
+                <ul className="text-xs font-bold text-[#0A1128] space-y-1.5">
+                  <li>• <strong className="text-sm">Millennium Campus Network (MCN)</strong> (UN Academic Impact Fellowship)</li>
+                  <li>• <strong className="text-sm">The Bridge Program</strong> (Premier leadership &amp; professional development)</li>
+                  <li>• <strong className="text-sm">LEAP Africa Programs et al</strong> (Youth leadership &amp; social enterprise)</li>
                 </ul>
               </div>
 
               {/* Diplomatic, Civic & Institutional Platforms */}
-              <div className="p-3.5 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
-                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1">
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex-1 flex flex-col justify-center">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1.5">
                   Diplomatic, Civic &amp; Institutional Platforms:
                 </p>
-                <ul className="text-xs font-bold text-[#0A1128] space-y-1 mt-1">
-                  <li>• <strong>United Nations Volunteers (UNV)</strong> (National &amp; global civic service)</li>
-                  <li>• <strong>Model United Nations (MUNs):</strong> BIMUN, AFRIMUN et al (Diplomacy &amp; policy)</li>
-                  <li>• <strong>Nigerian Higher Education Foundation (NHEF)</strong> (Scholars program &amp; global access)</li>
+                <ul className="text-xs font-bold text-[#0A1128] space-y-1.5">
+                  <li>• <strong className="text-sm">United Nations Volunteers (UNV)</strong> (National &amp; global civic service)</li>
+                  <li>• <strong className="text-sm">Model United Nations (MUNs):</strong> BIMUN, AFRIMUN et al (Diplomacy &amp; policy)</li>
+                  <li>• <strong className="text-sm">Nigerian Higher Education Foundation (NHEF)</strong> (Scholars program &amp; access)</li>
                 </ul>
               </div>
 
               {/* Immediate Launchpad */}
-              <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF]">
+              <div className="p-4 bg-[#FAF7EE] border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF] shrink-0">
                 <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1">
                   Immediate Launchpad &amp; Opportunity Portals:
                 </p>
-                <p className="text-xs font-bold text-[#0A1128] leading-snug">
-                  • <strong>Cowrywise Campus Ambassadors:</strong> Your primary, immediate ground-level launchpad!
+                <p className="text-sm font-black text-[#0A1128] leading-snug">
+                  ★ Cowrywise Campus Ambassadors: Your primary ground-level launchpad!
                 </p>
-                <p className="text-xs text-[#0A1128]/80 font-semibold mt-0.5">
-                  • Portals: <strong>Opportunity Desk</strong> · <strong>Opportunities For Africans</strong> · <strong>Youth Hub Africa</strong>
+                <p className="text-xs text-[#0A1128]/85 font-bold mt-1">
+                  Portals: Opportunity Desk · Opportunities For Africans · Youth Hub Africa
                 </p>
               </div>
             </div>
