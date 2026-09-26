@@ -24,7 +24,7 @@ import { SlideLayout, Card, Bullet, Badge, Kicker } from "./SlideLayout";
 export type SlideDef = {
   id: string;
   title: string;
-  notes: string;
+  notes?: string;
   render: (p: { index: number; total: number }) => ReactNode;
 };
 

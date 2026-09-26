@@ -10,17 +10,14 @@ import {
   Grid,
   FileDown,
   Archive,
-  BookOpen,
   ChevronLeft,
   ChevronRight,
   Menu,
-  X,
 } from "lucide-react";
 
 export function App() {
   const [current, setCurrent] = useState(0);
   const [grid, setGrid] = useState(false);
-  const [notesOpen, setNotesOpen] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const stageRef = useRef<HTMLDivElement>(null);
@@ -62,8 +59,6 @@ export function App() {
         go(current - 1);
       } else if (e.key.toLowerCase() === "g") {
         setGrid((g) => !g);
-      } else if (e.key.toLowerCase() === "n") {
-        setNotesOpen((n) => !n);
       } else if (e.key === "F5" || e.key.toLowerCase() === "f") {
         e.preventDefault();
         if (!document.fullscreenElement) {
@@ -74,7 +69,6 @@ export function App() {
       } else if (e.key === "Escape") {
         setGrid(false);
         setMobileMenuOpen(false);
-        setNotesOpen(false);
       }
     };
     window.addEventListener("keydown", onKey);
@@ -96,16 +90,6 @@ export function App() {
 
         {/* Desktop Controls */}
         <div className="hidden md:flex items-center gap-3">
-          <button
-            className={`deck-ui-btn px-3 py-1.5 text-sm font-bold ${
-              notesOpen ? "bg-[#0052FF] text-white" : ""
-            }`}
-            onClick={() => setNotesOpen((n) => !n)}
-            title="Toggle Speaker Notes (N)"
-          >
-            <BookOpen className="h-4 w-4" />
-            {notesOpen ? "Hide Notes (N)" : "Notes (N)"}
-          </button>
           <button
             className={`deck-ui-btn px-3 py-1.5 text-sm font-bold ${
               grid ? "bg-[#0052FF] text-white" : ""
@@ -189,15 +173,6 @@ export function App() {
                 <button
                   className="w-full text-left px-3 py-2 text-sm font-bold hover:bg-[#EBF2FF]"
                   onClick={() => {
-                    setNotesOpen((n) => !n);
-                    setMobileMenuOpen(false);
-                  }}
-                >
-                  {notesOpen ? "Hide Notes" : "Show Notes"}
-                </button>
-                <button
-                  className="w-full text-left px-3 py-2 text-sm font-bold hover:bg-[#EBF2FF]"
-                  onClick={() => {
                     setGrid((g) => !g);
                     setMobileMenuOpen(false);
                   }}
@@ -244,33 +219,6 @@ export function App() {
           ) : null}
         </div>
       </header>
-
-      {/* ---------------- Speaker Notes Drawer ---------------- */}
-      {notesOpen && (
-        <div className="print-hide border-b-[3.5px] border-[#0A1128] bg-white px-6 py-4 z-20 shadow-md">
-          <div className="max-w-[1600px] mx-auto flex items-start justify-between gap-4">
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="font-mono text-xs font-bold uppercase tracking-widest text-[#0052FF] bg-[#EBF2FF] px-2.5 py-1 border border-[#0052FF]">
-                  SPEAKER NOTES · SLIDE {current + 1}
-                </span>
-                <span className="font-display font-bold text-sm text-[#0A1128]">
-                  {slides[current].title}
-                </span>
-              </div>
-              <p className="mt-2 text-base font-medium text-[#0A1128] leading-relaxed">
-                {slides[current].notes}
-              </p>
-            </div>
-            <button
-              onClick={() => setNotesOpen(false)}
-              className="p-1 hover:bg-[#FAF7EE] border border-[#0A1128]"
-            >
-              <X className="h-5 w-5" />
-            </button>
-          </div>
-        </div>
-      )}
 
       {/* ---------------- Main Slide Stage / Grid ---------------- */}
       {grid ? (
@@ -319,10 +267,10 @@ export function App() {
           <div className="print-hide flex shrink-0 items-center justify-between gap-6 border-t-[3.5px] border-[#0A1128] bg-[#FAF7EE] px-6 py-3 z-20">
             <div className="hidden md:flex items-center gap-2 max-w-[70%] truncate">
               <span className="text-xs font-mono font-bold text-[#0052FF] uppercase shrink-0">
-                PROMPT:
+                SLIDE {current + 1} OF {total}:
               </span>
-              <p className="truncate text-sm text-[#0A1128]/80 font-medium">
-                {slides[current].notes}
+              <p className="truncate text-sm text-[#0A1128]/80 font-bold">
+                {slides[current].title}
               </p>
             </div>
             <div className="flex items-center gap-3 ml-auto">

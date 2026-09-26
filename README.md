@@ -23,10 +23,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 - **`Right Arrow` / `Space`**: Next slide
 - **`Left Arrow`**: Previous slide
-- **`N`**: Toggle Speaker Notes drawer (shows word-for-word prompts, key points, and audience engagement hooks)
 - **`G`**: Toggle Grid Overview (quick-jump to any slide)
 - **`F` / `F5`**: Enter / Exit Fullscreen Presenter Mode
-- **`Esc`**: Exit grid, speaker notes drawer, or fullscreen
+- **`Esc`**: Exit grid or fullscreen mode
 - **`Export PDF`**: Generates a high-resolution, vector-accurate 1920x1080 landscape PDF with interactive hyperlinks
 - **`Export ZIP`**: Exports all slides as individual high-res PNG/JPEG images
 
