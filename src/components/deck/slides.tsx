@@ -667,69 +667,117 @@ export const slides: SlideDef[] = [
         </div>
 
         <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          <Card className="col-span-4 p-8 flex flex-col justify-between">
-            <div>
-              <div className="flex items-center gap-3">
-                <span className="p-2 bg-[#EBF2FF] border-2 border-[#0A1128]">
-                  <BookOpen className="h-6 w-6 text-[#0052FF]" />
-                </span>
-                <h3 className="font-display text-2xl font-bold text-[#0A1128]">
-                  01. Don't Just Consume — Practice
-                </h3>
+          <Card className="col-span-4 p-7 flex flex-col justify-between">
+            <div className="flex-1 flex flex-col justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-3">
+                  <span className="p-2 bg-[#EBF2FF] border-2 border-[#0A1128]">
+                    <BookOpen className="h-6 w-6 text-[#0052FF]" />
+                  </span>
+                  <h3 className="font-display text-2xl font-bold text-[#0A1128]">
+                    01. Active Practice
+                  </h3>
+                </div>
+                <p className="slide-body mt-3 text-[#0A1128]/85 text-base">
+                  Watching endless free videos without doing anything gives a false feeling of progress. Apply what you learn immediately by solving real problems.
+                </p>
               </div>
-              <p className="slide-body mt-4 text-[#0A1128]/85 text-lg">
-                Watching endless videos or reading books without doing anything gives a false feeling of progress. Apply what you learn immediately: solve a real problem, write a summary, lead a group project, or create a working draft.
-              </p>
-              <div className="mt-4 bg-[#FAF7EE] border-l-4 border-[#0052FF] p-3 text-sm font-semibold">
-                The 2x Rule: For every 1 hour you spend studying, spend 2 hours creating something real.
+
+              {/* Action: Pay for Courses */}
+              <div className="p-3.5 bg-white border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF]">
+                <span className="font-mono text-xs font-black uppercase text-[#0052FF] block mb-1">
+                  Invest in Yourself · Pay for Courses:
+                </span>
+                <p className="text-xs font-bold text-[#0A1128] leading-snug">
+                  Put real skin in the game. Paying for credible courses, books, and certifications forces discipline and unlocks curated, advanced knowledge.
+                </p>
+              </div>
+
+              <div className="bg-[#FAF7EE] border-l-4 border-[#0052FF] p-3 text-xs font-bold text-[#0A1128]">
+                The 2x Rule: For every 1 hour you spend learning, spend 2 hours building something real.
               </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">Stage 1: Turn Knowledge Into Real Experience</span>
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
+                Stage 1: Turn Knowledge Into Real Experience
+              </span>
             </div>
           </Card>
 
-          <Card className="col-span-4 p-8 flex flex-col justify-between" tone="soft">
-            <div>
-              <div className="flex items-center gap-3">
-                <span className="p-2 bg-[#0052FF] border-2 border-[#0A1128] text-white">
-                  <TrendingUp className="h-6 w-6 text-white" />
-                </span>
-                <h3 className="font-display text-2xl font-bold text-[#0052FF]">
-                  02. Show Up Every Single Day
-                </h3>
+          <Card className="col-span-4 p-7 flex flex-col justify-between" tone="soft">
+            <div className="flex-1 flex flex-col justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-3">
+                  <span className="p-2 bg-[#0052FF] border-2 border-[#0A1128] text-white">
+                    <TrendingUp className="h-6 w-6 text-white" />
+                  </span>
+                  <h3 className="font-display text-2xl font-bold text-[#0052FF]">
+                    02. Daily Consistency
+                  </h3>
+                </div>
+                <p className="slide-body mt-3 text-[#0A1128]/85 text-base">
+                  Progress doesn't come from working 15 hours once a month and burning out. It comes from quiet, daily discipline when nobody is clapping.
+                </p>
               </div>
-              <p className="slide-body mt-4 text-[#0A1128]/85 text-lg">
-                Progress doesn't come from working 15 hours once a month and burning out. It comes from daily, quiet discipline. Doing just 1 hour of focused effort every day builds momentum that nobody can take away from you.
-              </p>
-              <div className="mt-4 bg-white border-l-4 border-[#0A1128] p-3 text-sm font-semibold">
+
+              {/* Action: Protect Daily Time */}
+              <div className="p-3.5 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                <span className="font-mono text-xs font-black uppercase text-[#0A1128] block mb-1">
+                  Invest in Yourself · Daily Time Discipline:
+                </span>
+                <p className="text-xs font-bold text-[#0A1128] leading-snug">
+                  Your focused attention is capital. Committing 1 to 2 uninterrupted hours every single day to your craft builds unstoppable compound momentum.
+                </p>
+              </div>
+
+              <div className="bg-white border-l-4 border-[#0A1128] p-3 text-xs font-bold text-[#0A1128]">
                 The 1% Rule: Getting 1% better every day makes you 37 times better by the end of the year.
               </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">Stage 2: Daily Consistency Always Wins</span>
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">
+                Stage 2: Daily Consistency Always Wins
+              </span>
             </div>
           </Card>
 
-          <Card className="col-span-4 p-8 flex flex-col justify-between">
-            <div>
-              <div className="flex items-center gap-3">
-                <span className="p-2 bg-[#FAF7EE] border-2 border-[#0A1128]">
-                  <RefreshCw className="h-6 w-6 text-[#0052FF]" />
-                </span>
-                <h3 className="font-display text-2xl font-bold text-[#0A1128]">
-                  03. Be Ready to Learn New Ways
-                </h3>
+          <Card className="col-span-4 p-7 flex flex-col justify-between">
+            <div className="flex-1 flex flex-col justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-3">
+                  <span className="p-2 bg-[#FAF7EE] border-2 border-[#0A1128]">
+                    <RefreshCw className="h-6 w-6 text-[#0052FF]" />
+                  </span>
+                  <h3 className="font-display text-2xl font-bold text-[#0A1128]">
+                    03. Perpetual Evolution
+                  </h3>
+                </div>
+                <p className="slide-body mt-3 text-[#0A1128]/85 text-base">
+                  Tools, job roles, and methods change constantly. What worked in year one won't be enough when you graduate. Always stay adaptable.
+                </p>
               </div>
-              <p className="slide-body mt-4 text-[#0A1128]/85 text-lg">
-                Tools, job roles, and methods change constantly. What worked in year one won't be enough when you graduate. Fall in love with solving problems, not with one specific tool, degree title, or routine.
-              </p>
-              <div className="mt-4 bg-[#FAF7EE] border-l-4 border-[#0052FF] p-3 text-sm font-semibold">
+
+              {/* Action: Apply for Fellowships */}
+              <div className="p-3.5 bg-white border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF]">
+                <span className="font-mono text-xs font-black uppercase text-[#0052FF] block mb-1">
+                  Invest in Yourself · Apply for Fellowships:
+                </span>
+                <p className="text-xs font-bold text-[#0A1128] leading-snug">
+                  Never wait until you feel "100% ready". Apply for fellowships, bootcamps, and global programs. The application process itself refines your vision.
+                </p>
+              </div>
+
+              <div className="bg-[#FAF7EE] border-l-4 border-[#0052FF] p-3 text-xs font-bold text-[#0A1128]">
                 Lifelong Curiosity: The best performers stay willing to be beginners whenever the world changes.
               </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">Stage 3: Keep Reinventing Yourself</span>
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
+                Stage 3: Step Out &amp; Keep Reinventing Yourself
+              </span>
             </div>
           </Card>
         </div>
