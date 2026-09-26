@@ -1208,92 +1208,131 @@ export const slides: SlideDef[] = [
 
         <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
           {/* People to Learn From */}
-          <Card className="col-span-6 p-8 flex flex-col justify-between">
-            <div>
-              <div className="flex items-center justify-between">
-                <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] text-white px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider">
-                  Voices &amp; Builders to Study
+          <Card className="col-span-6 p-7 flex flex-col justify-between" tone="paper">
+            <div className="flex-1 flex flex-col justify-between gap-4">
+              <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20 shrink-0">
+                <span className="brut-flat border-[3px] border-[#0A1128] bg-[#0052FF] text-white px-3.5 py-1 font-mono text-xs font-black uppercase tracking-wider">
+                  People of Substance &amp; Voices to Study
                 </span>
                 <Users className="h-6 w-6 text-[#0052FF]" />
               </div>
 
-              <div className="mt-5 space-y-3">
-                <div className="p-3 bg-[#FAF7EE] border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">
-                    Fintech &amp; Product Builders:
-                  </p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5">
-                    <strong>Razaq Ahmed &amp; Edward Popoola</strong> (Cowrywise founders — discipline, financial engineering, long game), <strong>Shola Akinlade &amp; Ezra Olubi</strong> (Paystack).
-                  </p>
+              {/* Youth Realities & Changemakers */}
+              <div className="p-4 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-2">
+                  Youth Realities &amp; Changemakers to Follow:
+                </p>
+                <div className="grid grid-cols-2 gap-2 text-xs font-bold text-[#0A1128]">
+                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <span className="text-[#0052FF]">Bukola Aladesulu</span>
+                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Youth Development</span>
+                  </div>
+                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <span className="text-[#0052FF]">Temiloluwa Bolawole</span>
+                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Poetry &amp; Diplomacy</span>
+                  </div>
+                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <span className="text-[#0052FF]">Rafiat Atanda</span>
+                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Underserved Communities</span>
+                  </div>
+                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <span className="text-[#0052FF]">Lasisi Godwin</span>
+                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Public Health</span>
+                  </div>
+                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <span className="text-[#0052FF]">Saviour Iwezue</span>
+                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Climate Action</span>
+                  </div>
+                  <div className="p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20">
+                    <span className="text-[#0052FF]">Munnir Adams</span>
+                    <span className="block text-[11px] text-[#0A1128]/75 font-semibold">Climate Action</span>
+                  </div>
+                  <div className="col-span-2 p-1.5 bg-[#FAF7EE] border border-[#0A1128]/20 flex items-center justify-between">
+                    <div>
+                      <span className="text-[#0052FF]">Stanley Anigbogu</span>
+                      <span className="text-[11px] text-[#0A1128]/75 font-semibold ml-2">Hardware Engineering</span>
+                    </div>
+                  </div>
                 </div>
-
-                <div className="p-3 bg-[#FAF7EE] border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">
-                    Global Craft &amp; Leverage Thinkers:
-                  </p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5">
-                    <strong>Naval Ravikant</strong> (Leverage, judgment, specific knowledge), <strong>Paul Graham</strong> (Maker schedule, doing things that don’t scale).
-                  </p>
-                </div>
-
-                <div className="p-3 bg-[#FAF7EE] border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-sm text-[#0A1128]">
-                    Scholarship &amp; Academic Champions:
-                  </p>
-                  <p className="text-xs text-[#0A1128]/80 mt-0.5">
-                    <strong>Dr. Dipo Awojide</strong>, <strong>Scholarship Region</strong>, and past alumni of Erasmus Mundus, Mastercard Foundation &amp; Chevening.
-                  </p>
+                <div className="mt-2.5 pt-2 border-t border-[#0A1128]/15 text-center">
+                  <span className="font-mono text-xs font-black text-[#0052FF] italic">
+                    "and many other people I follow"
+                  </span>
                 </div>
               </div>
+
+              {/* Scholarship & Academic Champions */}
+              <div className="p-4 bg-white border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF]">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1.5">
+                  Scholarship &amp; Academic Champions:
+                </p>
+                <p className="text-sm font-bold text-[#0A1128] leading-snug">
+                  <strong>Dr. Dipo Awojide</strong> · <strong>Scholarship Region</strong>
+                </p>
+                <p className="text-xs text-[#0A1128]/85 font-semibold mt-1 leading-normal">
+                  Past alumni &amp; scholar networks of <strong>Erasmus Mundus</strong>, <strong>Mastercard Foundation</strong>, and <strong>Chevening</strong>.
+                </p>
+              </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
-                Diet Rule: If their feed doesn't inspire you to build, unfollow.
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-black text-[#0052FF] uppercase">
+                DIET RULE: UNFOLLOW PERFORMATIVE NOISE. FOLLOW BUILDERS DOING REAL WORK.
               </span>
             </div>
           </Card>
 
           {/* Platforms to Join */}
-          <Card className="col-span-6 p-8 flex flex-col justify-between" tone="soft">
-            <div>
-              <div className="flex items-center justify-between">
-                <span className="brut-flat border-[3px] border-[#0A1128] bg-white text-[#0052FF] px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider border-[#0A1128]">
-                  Ecosystems &amp; Portals
+          <Card className="col-span-6 p-7 flex flex-col justify-between" tone="soft">
+            <div className="flex-1 flex flex-col justify-between gap-4">
+              <div className="flex items-center justify-between pb-3 border-b-2 border-[#0A1128]/20 shrink-0">
+                <span className="brut-flat border-[3px] border-[#0A1128] bg-white text-[#0052FF] px-3.5 py-1 font-mono text-xs font-black uppercase tracking-wider">
+                  Ecosystems &amp; Proven Platforms
                 </span>
                 <Compass className="h-6 w-6 text-[#0052FF]" />
               </div>
 
-              <div className="mt-5 space-y-3">
-                <div className="p-3 bg-white border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-sm text-[#0052FF]">Global Opportunity Aggregators:</p>
-                  <p className="text-xs text-[#0A1128] mt-0.5">
-                    • <strong>Opportunity Desk</strong> (opportunitydesk.org)
-                    <br />• <strong>Opportunities For Africans</strong> (opportunitiesforafricans.com)
-                    <br />• <strong>Youth Hub Africa</strong>
-                  </p>
-                </div>
+              {/* High-Impact Fellowships & Leadership */}
+              <div className="p-3.5 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1">
+                  High-Impact Fellowships &amp; Leadership Programs:
+                </p>
+                <ul className="text-xs font-bold text-[#0A1128] space-y-1 mt-1">
+                  <li>• <strong>Millennium Campus Network (MCN)</strong> (UN Academic Impact Fellowship)</li>
+                  <li>• <strong>The Bridge Program</strong> (Premier leadership &amp; professional development)</li>
+                  <li>• <strong>LEAP Africa Programs et al</strong> (Youth leadership, social enterprise &amp; civic innovation)</li>
+                </ul>
+              </div>
 
-                <div className="p-3 bg-white border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-sm text-[#0052FF]">High-Impact Fellowships:</p>
-                  <p className="text-xs text-[#0A1128] mt-0.5">
-                    • <strong>Millennium Campus Network (MCN / UN Academic Impact)</strong>
-                    <br />• <strong>YALI Regional Leadership Centers (RLC)</strong>
-                    <br />• <strong>Ashoka Young Changemakers &amp; Global Changemakers</strong>
-                  </p>
-                </div>
+              {/* Diplomatic, Civic & Institutional Platforms */}
+              <div className="p-3.5 bg-white border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128]">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1">
+                  Diplomatic, Civic &amp; Institutional Platforms:
+                </p>
+                <ul className="text-xs font-bold text-[#0A1128] space-y-1 mt-1">
+                  <li>• <strong>United Nations Volunteers (UNV)</strong> (National &amp; global civic service)</li>
+                  <li>• <strong>Model United Nations (MUNs):</strong> BIMUN, AFRIMUN et al (Diplomacy &amp; policy)</li>
+                  <li>• <strong>Nigerian Higher Education Foundation (NHEF)</strong> (Scholars program &amp; global access)</li>
+                </ul>
+              </div>
 
-                <div className="p-3 bg-white border-2 border-[#0A1128]/20 rounded">
-                  <p className="font-bold text-sm text-[#0052FF]">Developer &amp; Builder Networks:</p>
-                  <p className="text-xs text-[#0A1128] mt-0.5">
-                    • <strong>Cowrywise Campus Ambassadors</strong> (Your primary launchpad!)
-                    <br />• <strong>Open Source Community Africa (OSCA)</strong> &amp; <strong>GDG</strong>
-                  </p>
-                </div>
+              {/* Immediate Launchpad */}
+              <div className="p-3.5 bg-[#FAF7EE] border-2 border-[#0052FF] shadow-[3px_3px_0_0_#0052FF]">
+                <p className="font-mono text-xs font-black uppercase text-[#0052FF] mb-1">
+                  Immediate Launchpad &amp; Opportunity Portals:
+                </p>
+                <p className="text-xs font-bold text-[#0A1128] leading-snug">
+                  • <strong>Cowrywise Campus Ambassadors:</strong> Your primary, immediate ground-level launchpad!
+                </p>
+                <p className="text-xs text-[#0A1128]/80 font-semibold mt-0.5">
+                  • Portals: <strong>Opportunity Desk</strong> · <strong>Opportunities For Africans</strong> · <strong>Youth Hub Africa</strong>
+                </p>
               </div>
             </div>
-            <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono font-bold text-[#0A1128] uppercase">
-                Bookmark these portals. Check them every Monday morning.
+
+            <div className="border-t-2 border-[#0A1128]/20 pt-3 mt-3 shrink-0">
+              <span className="text-xs font-mono font-black text-[#0A1128] uppercase">
+                ACTION: BOOKMARK THESE PORTALS. CHECK APPLICATION CYCLES EVERY MONDAY.
               </span>
             </div>
           </Card>
