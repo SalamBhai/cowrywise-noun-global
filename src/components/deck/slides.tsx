@@ -820,16 +820,16 @@ export const slides: SlideDef[] = [
                 Applying to high-profile international programs with buzzwords: *"Passionate youth leader fighting climate change and poverty globally."*
               </p>
 
-              <div className="mt-6 space-y-3">
-                <div className="bg-white/10 border border-white/20 p-4 rounded">
+              <div className="mt-6 space-y-4">
+                <div className="bg-white/10 border border-white/30 p-4.5 shadow-[2px_2px_0_0_rgba(255,255,255,0.2)]">
                   <p className="font-bold text-white text-base">The Fatal Flaw:</p>
-                  <p className="text-sm text-white/80 mt-1">
+                  <p className="text-sm text-white/85 mt-1 leading-relaxed">
                     Zero empirical proof. No localized community impact data. No track record of dealing with real-world administrative or logistical friction.
                   </p>
                 </div>
-                <div className="bg-white/10 border border-white/20 p-4 rounded">
+                <div className="bg-white/10 border border-white/30 p-4.5 shadow-[2px_2px_0_0_rgba(255,255,255,0.2)]">
                   <p className="font-bold text-white text-base">What Selectors See:</p>
-                  <p className="text-sm text-white/80 mt-1">
+                  <p className="text-sm text-white/85 mt-1 leading-relaxed">
                     An application looking for a trophy, not a problem-solver equipped with grit and evidence.
                   </p>
                 </div>
@@ -853,7 +853,7 @@ export const slides: SlideDef[] = [
                 Start in the Dirt, Scale to the World
               </h3>
               <p className="text-[#0A1128]/85 mt-3 text-lg leading-relaxed">
-                Global selectors and international firms don't want armchair theorists. They look for operators with **mud on their boots**.
+                Global selectors and international firms don't want armchair theorists. They look for operators with <strong>mud on their boots</strong>.
               </p>
 
               <ul className="mt-6 space-y-4">
@@ -869,7 +869,7 @@ export const slides: SlideDef[] = [
               </ul>
             </div>
             <div className="border-t-2 border-[#0A1128]/20 pt-3">
-              <span className="text-xs font-mono text-[#0052FF] font-bold uppercase">
+              <span className="text-xs font-mono font-bold text-[#0052FF] uppercase">
                 "Prove it in Lagos, Yaba, or Abuja first. Geneva will listen."
               </span>
             </div>
@@ -903,13 +903,13 @@ export const slides: SlideDef[] = [
           <Card className="col-span-5 p-8 flex flex-col justify-between" tone="paper">
             <div>
               <Kicker tone="paper">The Passive Approach (Weak)</Kicker>
-              <div className="mt-6 p-4 bg-white border-2 border-red-500 rounded">
+              <div className="mt-6 p-4 bg-white border-2 border-red-500 shadow-[3px_3px_0_0_#DC2626]">
                 <p className="font-mono text-sm text-red-600 font-bold uppercase">Resume Line Item:</p>
                 <p className="italic text-base text-[#0A1128] mt-2">
                   "Member / Ambassador, Cowrywise NOUN Chapter (2025 – 2026). Attended meetings, helped with events, and posted on WhatsApp groups."
                 </p>
               </div>
-              <p className="text-sm text-[#0A1128]/70 mt-4 leading-relaxed">
+              <p className="text-sm text-[#0A1128]/70 mt-4 leading-relaxed font-semibold">
                 Why this fails: Tells the reviewer nothing about your initiative, problem-solving ability, or tangible contribution.
               </p>
             </div>
@@ -935,15 +935,15 @@ export const slides: SlideDef[] = [
               </div>
 
               <div className="mt-6 grid grid-cols-3 gap-3">
-                <div className="p-3 bg-white border-2 border-[#0A1128] text-center">
+                <div className="p-3 bg-white border-2 border-[#0A1128] shadow-[2px_2px_0_0_#0A1128] text-center">
                   <p className="font-mono font-bold text-xs uppercase text-[#0052FF]">Leadership</p>
                   <p className="text-sm font-bold text-[#0A1128] mt-1">Initiative &amp; Ownership</p>
                 </div>
-                <div className="p-3 bg-white border-2 border-[#0A1128] text-center">
+                <div className="p-3 bg-white border-2 border-[#0A1128] shadow-[2px_2px_0_0_#0A1128] text-center">
                   <p className="font-mono font-bold text-xs uppercase text-[#0052FF]">Metrics</p>
                   <p className="text-sm font-bold text-[#0A1128] mt-1">Quantifiable Scale</p>
                 </div>
-                <div className="p-3 bg-white border-2 border-[#0A1128] text-center">
+                <div className="p-3 bg-white border-2 border-[#0A1128] shadow-[2px_2px_0_0_#0A1128] text-center">
                   <p className="font-mono font-bold text-xs uppercase text-[#0052FF]">Artifact</p>
                   <p className="text-sm font-bold text-[#0A1128] mt-1">Documented Output</p>
                 </div>
